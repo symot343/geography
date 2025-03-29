@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  #flag {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
