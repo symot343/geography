@@ -2,17 +2,27 @@ body {
     font-family: sans-serif;
     text-align: center;
     margin: 2rem;
+    background-color: #f9f9f9;
   }
   
   #flag {
     width: 300px;
     height: auto;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   }
   
   button {
     margin: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-weight: bold;
+    margin: 1rem 0;
+    font-size: 1.2rem;
   }
   

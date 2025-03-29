@@ -1,13 +1,28 @@
 const quizData = [
     {
-      flag: 'flags/japan.png',
-      options: ['日本', '韓国', '中国', 'タイ'],
+      flag: 'https://flagcdn.com/w320/jp.png',
+      options: ['日本', '中国', '韓国', 'ベトナム'],
       answer: '日本',
     },
     {
-      flag: 'flags/france.png',
-      options: ['イタリア', 'オランダ', 'フランス', 'ドイツ'],
+      flag: 'https://flagcdn.com/w320/fr.png',
+      options: ['フランス', 'イタリア', 'イギリス', 'ドイツ'],
       answer: 'フランス',
+    },
+    {
+      flag: 'https://flagcdn.com/w320/us.png',
+      options: ['アメリカ', 'カナダ', 'オーストラリア', 'メキシコ'],
+      answer: 'アメリカ',
+    },
+    {
+      flag: 'https://flagcdn.com/w320/kr.png',
+      options: ['韓国', '中国', '北朝鮮', '日本'],
+      answer: '韓国',
+    },
+    {
+      flag: 'https://flagcdn.com/w320/de.png',
+      options: ['オーストリア', 'ドイツ', 'スイス', 'ベルギー'],
+      answer: 'ドイツ',
     }
   ];
   
@@ -23,7 +38,7 @@ const quizData = [
       btn.textContent = option;
       btn.onclick = () => {
         document.getElementById('result').textContent =
-          option === question.answer ? '正解！' : '不正解…';
+          option === question.answer ? '✅ 正解！' : '❌ 不正解…';
       };
       optionsDiv.appendChild(btn);
     });
