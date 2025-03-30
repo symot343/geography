@@ -27,7 +27,6 @@ document.getElementById('start-btn').onclick = () => {
   timeLimit = parseInt(document.querySelector('.time-btn.selected').dataset.time);
   choiceCount = parseInt(document.querySelector('.choice-btn.selected').dataset.choice);
 
-  // 地域でフィルター
   const selectedRegions = getSelectedRegions();
   const filtered = quizData.filter(entry => selectedRegions.includes(entry.region));
   if (filtered.length === 0) {
@@ -50,9 +49,17 @@ document.getElementById('start-btn').onclick = () => {
 function getSelectedRegions() {
   const checkboxes = document.querySelectorAll('#region-filters input[type="checkbox"]');
   return Array.from(checkboxes)
-    .filter(cb => cb.checked)
+    .filter(cb => cb.checked && cb.value) // ← valueを持ってるチェックボックスのみ
     .map(cb => cb.value);
 }
+
+// 「すべて選択」チェックボックスの動作
+document.getElementById('select-all-regions').addEventListener('change', (e) => {
+  const allChecked = e.target.checked;
+  document.querySelectorAll('#region-filters input[type="checkbox"]').forEach(cb => {
+    if (cb !== e.target) cb.checked = allChecked;
+  });
+});
 
 function loadQuiz() {
   const question = questionOrder[current];
