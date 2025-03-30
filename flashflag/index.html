@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>フラッシュフラッグ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="mode-select">
+    <h2>フラッシュ回数を選んでください</h2>
+    <div id="mode-buttons">
+      <button class="mode-button" data-count="5">5回</button>
+      <button class="mode-button" data-count="10">10回</button>
+      <button class="mode-button" data-count="15">15回</button>
+    </div>
+    <button id="start-button" style="display: none;">スタート</button>
+  </div>
+
+  <div id="game" style="display: none;">
+    <h1>フラッシュフラッグ</h1>
+    <div id="flash-container"></div>
+
+    <div id="question-area" style="display: none;">
+      <p id="question-text">この国旗はあったでしょうか？</p>
+      <div id="final-flag"></div>
+      <div id="country-name"></div>
+      <div id="answer-buttons">
+        <button id="yes-button" class="answer-button maru">○</button>
+        <button id="no-button" class="answer-button batsu">×</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
