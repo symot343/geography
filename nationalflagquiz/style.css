@@ -188,3 +188,15 @@ button:hover {
     max-width: 100%;
   }
 }
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.checkbox-group label {
+  font-size: 0.95rem;
+}

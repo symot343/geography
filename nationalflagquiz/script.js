@@ -22,44 +22,36 @@ document.getElementById('start-btn').onclick = () => {
     return;
   }
 
-  // 値の取得
   nameFormat = document.getElementById('name-format').value;
   mode = document.getElementById('mode-select').value;
-
-  // 時間と選択肢数はボタンで選択された値を使用
   timeLimit = parseInt(document.querySelector('.time-btn.selected').dataset.time);
   choiceCount = parseInt(document.querySelector('.choice-btn.selected').dataset.choice);
+
+  // 地域でフィルター
+  const selectedRegions = getSelectedRegions();
+  const filtered = quizData.filter(entry => selectedRegions.includes(entry.region));
+  if (filtered.length === 0) {
+    alert("選択された地域に国がありません。");
+    return;
+  }
+
+  questionOrder = shuffle(filtered);
+  current = 0;
+  score = 0;
+  timeLeft = timeLimit;
 
   document.getElementById('start-screen').style.display = 'none';
   document.getElementById('quiz-screen').style.display = 'block';
 
-  startQuiz();
-};
-
-// 選択ボタンの選択切替（制限時間・選択肢数）
-document.querySelectorAll('.time-btn').forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('selected'));
-    btn.classList.add('selected');
-    timeLimit = parseInt(btn.dataset.time);
-  };
-});
-
-document.querySelectorAll('.choice-btn').forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
-    btn.classList.add('selected');
-    choiceCount = parseInt(btn.dataset.choice);
-  };
-});
-
-function startQuiz() {
-  current = 0;
-  score = 0;
-  timeLeft = timeLimit;
-  questionOrder = shuffle([...quizData]);
   startTimer();
   loadQuiz();
+};
+
+function getSelectedRegions() {
+  const checkboxes = document.querySelectorAll('#region-filters input[type="checkbox"]');
+  return Array.from(checkboxes)
+    .filter(cb => cb.checked)
+    .map(cb => cb.value);
 }
 
 function loadQuiz() {
@@ -71,7 +63,7 @@ function loadQuiz() {
   optionsDiv.innerHTML = '';
   result.textContent = '';
 
-  let options = shuffle([...quizData])
+  let options = shuffle([...questionOrder])
     .filter(opt => getDisplayName(opt) && opt.flag)
     .slice(0, choiceCount);
 
