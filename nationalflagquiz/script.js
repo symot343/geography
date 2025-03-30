@@ -15,9 +15,13 @@ let timeLimit = 30;
 let choiceCount = 5;
 let timer;
 let timeLeft = 0;
+let score = 0;
 
 const startScreen = document.getElementById('start-screen');
 const quizScreen = document.getElementById('quiz-screen');
+const modal = document.getElementById('score-modal');
+const finalScoreText = document.getElementById('final-score');
+const closeBtn = document.getElementById('close-modal');
 
 document.getElementById('start-btn').onclick = () => {
   mode = document.getElementById('mode-select').value;
@@ -26,12 +30,16 @@ document.getElementById('start-btn').onclick = () => {
 
   startScreen.style.display = 'none';
   quizScreen.style.display = 'block';
-
   startQuiz();
+};
+
+closeBtn.onclick = () => {
+  modal.style.display = 'none';
 };
 
 function startQuiz() {
   current = 0;
+  score = 0;
   timeLeft = timeLimit;
   document.getElementById('next').style.display = 'none';
   loadQuiz();
@@ -72,6 +80,8 @@ function loadQuiz() {
 }
 
 function checkAnswer(isCorrect) {
+  if (isCorrect) score++;
+
   document.getElementById('result').textContent = isCorrect ? '✅ 正解！' : '❌ 不正解…';
   document.querySelectorAll('#options button').forEach(btn => btn.disabled = true);
   document.getElementById('next').style.display = 'inline-block';
@@ -95,10 +105,16 @@ function startTimer() {
       clearInterval(timer);
       timerDiv.textContent = '⏰ 時間切れ！';
       document.getElementById('options').innerHTML = '';
-      document.getElementById('result').textContent = 'クイズ終了！';
+      document.getElementById('result').textContent = '';
       document.getElementById('next').style.display = 'none';
+      showScoreModal();
     }
   }, 1000);
+}
+
+function showScoreModal() {
+  finalScoreText.textContent = `あなたのスコアは ${score} 点でした！`;
+  modal.style.display = 'block';
 }
 
 function shuffle(array) {
