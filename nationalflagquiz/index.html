@@ -25,14 +25,19 @@
       <option value="jp-official">日本語（正式名）</option>
     </select><br><br>
 
-    <label for="time-select">制限時間：</label><br>
-    <select id="time-select">
-      <option value="30">30秒</option>
-      <option value="60">60秒</option>
-    </select><br><br>
+    <label>制限時間：</label><br>
+    <div id="time-buttons" class="button-group">
+      <button class="time-btn selected" data-time="30">30秒</button>
+      <button class="time-btn" data-time="60">60秒</button>
+    </div><br>
 
-    <label for="choice-count">選択肢の数：</label><br>
-    <input type="number" id="choice-count" min="5" max="8" value="5"><br><br>
+    <label>選択肢の数：</label><br>
+    <div id="choice-buttons" class="button-group">
+      <button class="choice-btn selected" data-choice="5">5</button>
+      <button class="choice-btn" data-choice="6">6</button>
+      <button class="choice-btn" data-choice="7">7</button>
+      <button class="choice-btn" data-choice="8">8</button>
+    </div><br>
 
     <button id="start-btn">クイズを始める</button>
   </div>

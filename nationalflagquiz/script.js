@@ -1,7 +1,8 @@
 let quizData = [];
-let current = 0;
 let questionOrder = [];
+let current = 0;
 let nameFormat = 'en';
+let mode = 'flag-to-name';
 let timeLimit = 30;
 let choiceCount = 5;
 let timeLeft = 0;
@@ -12,7 +13,7 @@ fetch('countries.json')
   .then(res => res.json())
   .then(data => {
     quizData = data.filter(entry => entry.flag);
-    console.log("読み込んだ国データ数:", quizData.length);
+    console.log("読み込んだ国数:", quizData.length);
   });
 
 document.getElementById('start-btn').onclick = () => {
@@ -21,16 +22,36 @@ document.getElementById('start-btn').onclick = () => {
     return;
   }
 
+  // 値の取得
   nameFormat = document.getElementById('name-format').value;
   mode = document.getElementById('mode-select').value;
-  timeLimit = parseInt(document.getElementById('time-select').value);
-  choiceCount = Math.min(Math.max(parseInt(document.getElementById('choice-count').value), 5), 8);
+
+  // 時間と選択肢数はボタンで選択された値を使用
+  timeLimit = parseInt(document.querySelector('.time-btn.selected').dataset.time);
+  choiceCount = parseInt(document.querySelector('.choice-btn.selected').dataset.choice);
 
   document.getElementById('start-screen').style.display = 'none';
   document.getElementById('quiz-screen').style.display = 'block';
 
   startQuiz();
 };
+
+// 選択ボタンの選択切替（制限時間・選択肢数）
+document.querySelectorAll('.time-btn').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+    timeLimit = parseInt(btn.dataset.time);
+  };
+});
+
+document.querySelectorAll('.choice-btn').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+    choiceCount = parseInt(btn.dataset.choice);
+  };
+});
 
 function startQuiz() {
   current = 0;
@@ -80,20 +101,21 @@ function loadQuiz() {
 function checkAnswer(isCorrect, question) {
   const result = document.getElementById('result');
   result.textContent = isCorrect ? '◯' : '×';
-  result.style.fontSize = '2rem';
-  result.style.marginTop = '1rem';
+  result.className = isCorrect ? 'correct' : 'incorrect';
 
   document.querySelectorAll('#options button').forEach(btn => btn.disabled = true);
 
   if (!isCorrect) {
     const correct = document.createElement('p');
     correct.textContent = `正解：${getDisplayName(question)}`;
-    correct.style.fontSize = '1.2rem';
-    correct.style.marginTop = '1rem';
     document.getElementById('options').appendChild(correct);
+  } else {
+    score++;
   }
 
   setTimeout(() => {
+    result.textContent = '';
+    result.className = '';
     nextQuiz();
   }, isCorrect ? 500 : 2000);
 }

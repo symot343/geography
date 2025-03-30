@@ -5,10 +5,6 @@ body {
   background-color: #f9f9f9;
 }
 
-h1 {
-  margin-bottom: 2rem;
-}
-
 select, input {
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -31,18 +27,32 @@ button:hover {
   background-color: #2980b9;
 }
 
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.button-group button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  background-color: #ddd;
+  color: #333;
+}
+
+.button-group button.selected {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
 #flag {
   width: 300px;
   height: auto;
   margin: 1rem 0;
   border: 1px solid #ccc;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-}
-
-#result {
-  font-weight: bold;
-  margin: 1rem 0;
-  font-size: 2rem;
 }
 
 #timer {
@@ -58,14 +68,14 @@ button:hover {
 
 #options {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
   margin-top: 1rem;
 }
 
 #options button {
-  min-width: 120px;
+  min-width: 200px;
   padding: 0.8rem;
 }
 
@@ -76,7 +86,26 @@ button:hover {
   color: #333;
 }
 
-/* モーダル関連 */
+#result {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  font-weight: bold;
+  z-index: 999;
+  pointer-events: none;
+  user-select: none;
+}
+
+.correct {
+  color: #2ecc71;
+}
+
+.incorrect {
+  color: #e74c3c;
+}
+
 .modal {
   display: none;
   position: fixed;
