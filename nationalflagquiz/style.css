@@ -77,15 +77,17 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 0.1rem; /* ← ほぼ隙間なし */
+  margin-top: 0.5rem;
   width: 100%;
 }
 
 #options button {
-  min-width: 200px;
-  padding: 0.8rem;
+  width: 95%;
+  max-width: 320px;
+  padding: 0.6rem;
   font-size: 1rem;
+  margin: 0; /* ← 追加：上下の余白をなくす */
 }
 
 #options p {
