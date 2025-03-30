@@ -1,7 +1,7 @@
 const quizzes = [
     { title: '国旗クイズ', path: 'nationalflagquiz/' },
     { title: 'ケッペンの気候区分クイズ', path: 'keppenquiz/' },
-    { title: '日本地図クイズ', path: 'map-quiz/' }
+    { title: 'フラッシュフラッグ', path: 'flashflag/' }
   ];
   
   const quizList = document.getElementById('quiz-list');
