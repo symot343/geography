@@ -1,0 +1,82 @@
+.explanation{
+    font-size:15px;
+}
+
+#status{
+    text-align:right;
+    margin-top:-40px;
+}
+
+.expl{
+    font-size:10px;
+    margin-top:-10px;
+}
+
+#name_input{
+    margin-top:-10px;
+    padding:5px 2px;
+    width:150px;
+}
+
+#start{
+    margin-top:15px;
+}
+
+.map{
+    position:relative;
+    width:370px;
+}
+
+.world{
+    width:370px;
+}
+
+#pin{
+    position:absolute;
+    width:10px;
+    top:0px;
+    left:0px;
+}
+
+.next_button{
+    margin-top: 10px;
+    text-align:right;
+}
+
+.choice {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 15px;
+    color:black;
+    text-align:center;
+    padding:3px;
+}
+
+.answer_button{
+    margin-left: 30px;
+}
+
+table{
+    text-align: center;
+    width:370px;
+}
+
+table th,td{
+    padding:2px 2px;
+    font-size:10px;
+}
+
+table td{
+    text-align: center;
+}
+
+.rowA{
+    background-color:#dedede;
+}
+
+.rowB{
+    background-color:#ffffff;
+}

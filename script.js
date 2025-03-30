@@ -1,6 +1,6 @@
 const quizzes = [
     { title: '国旗クイズ', path: 'nationalflagquiz/' },
-    { title: '数学クイズ', path: 'math-quiz/' },
+    { title: 'ケッペンの気候区分クイズ', path: 'keppenquiz/' },
     { title: '日本地図クイズ', path: 'map-quiz/' }
   ];
   
