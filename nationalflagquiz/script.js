@@ -1,14 +1,4 @@
-const quizData = [
-  { flag: 'https://flagcdn.com/w320/jp.png', name: '日本' },
-  { flag: 'https://flagcdn.com/w320/fr.png', name: 'フランス' },
-  { flag: 'https://flagcdn.com/w320/us.png', name: 'アメリカ' },
-  { flag: 'https://flagcdn.com/w320/kr.png', name: '韓国' },
-  { flag: 'https://flagcdn.com/w320/de.png', name: 'ドイツ' },
-  { flag: 'https://flagcdn.com/w320/it.png', name: 'イタリア' },
-  { flag: 'https://flagcdn.com/w320/gb.png', name: 'イギリス' },
-  { flag: 'https://flagcdn.com/w320/cn.png', name: '中国' },
-];
-
+let quizData = [];
 let current = 0;
 let mode = 'flag-to-name';
 let timeLimit = 30;
@@ -23,10 +13,21 @@ const modal = document.getElementById('score-modal');
 const finalScoreText = document.getElementById('final-score');
 const closeBtn = document.getElementById('close-modal');
 
+fetch('countries.json')
+  .then(res => res.json())
+  .then(data => {
+    quizData = data;
+  });
+
 document.getElementById('start-btn').onclick = () => {
   mode = document.getElementById('mode-select').value;
   timeLimit = parseInt(document.getElementById('time-select').value);
   choiceCount = Math.min(Math.max(parseInt(document.getElementById('choice-count').value), 5), 8);
+
+  if (quizData.length === 0) {
+    alert("データの読み込み中です。もう一度お試しください。");
+    return;
+  }
 
   startScreen.style.display = 'none';
   quizScreen.style.display = 'block';
@@ -35,6 +36,7 @@ document.getElementById('start-btn').onclick = () => {
 
 closeBtn.onclick = () => {
   modal.style.display = 'none';
+  location.reload();
 };
 
 function startQuiz() {
@@ -56,7 +58,7 @@ function loadQuiz() {
   result.textContent = '';
 
   let options = shuffle([...quizData]).slice(0, choiceCount);
-  if (!options.includes(question)) {
+  if (!options.some(opt => opt.name === question.name)) {
     options[Math.floor(Math.random() * options.length)] = question;
   }
 
@@ -73,7 +75,7 @@ function loadQuiz() {
     options.forEach(opt => {
       const btn = document.createElement('button');
       btn.innerHTML = `<img src="${opt.flag}" width="100" alt="${opt.name}" />`;
-      btn.onclick = () => checkAnswer(opt.flag === question.flag);
+      btn.onclick = () => checkAnswer(opt.name === question.name);
       optionsDiv.appendChild(btn);
     });
   }
