@@ -80,13 +80,19 @@ h1, h2 {
 .answer-button {
   font-size: 60px;
   padding: 25px 50px;
-  border-radius: 50%;
+  border-radius: 0;
   border: none;
   cursor: pointer;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .maru {
   background-color: #4CAF50;

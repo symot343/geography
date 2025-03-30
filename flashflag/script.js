@@ -29,18 +29,21 @@ function startFlash() {
   flashSequence = [];
   currentIndex = 0;
 
+  // フラッシュループ（表示0.5秒 + 間隔0.1秒 = 600ms間隔）
   const flashLoop = setInterval(() => {
     if (currentIndex >= flashCount) {
       clearInterval(flashLoop);
       clearFlag();
-      setTimeout(showFinalFlag, 2000); // ← ここで2秒待つ
+      setTimeout(showFinalFlag, 2000);
       return;
     }
     const country = getRandomCountry();
     flashSequence.push(country);
     showFlag(country.flag);
+    setTimeout(clearFlag, 500); // ← 表示時間0.5秒
     currentIndex++;
-  }, 200);
+  }, 600);
+
 }
 
 function showFinalFlag() {
