@@ -1,22 +1,17 @@
 let quizData = [];
 let current = 0;
-let mode = 'flag-to-name';
+let questionOrder = [];
+let nameFormat = 'en';
 let timeLimit = 30;
 let choiceCount = 5;
-let timer;
 let timeLeft = 0;
 let score = 0;
-
-const startScreen = document.getElementById('start-screen');
-const quizScreen = document.getElementById('quiz-screen');
-const modal = document.getElementById('score-modal');
-const finalScoreText = document.getElementById('final-score');
-const closeBtn = document.getElementById('close-modal');
+let timer;
 
 fetch('countries.json')
   .then(res => res.json())
   .then(data => {
-    quizData = data.filter(entry => entry.name && entry.flag);
+    quizData = data.filter(entry => entry.flag);
     console.log("読み込んだ国データ数:", quizData.length);
   });
 
@@ -26,36 +21,28 @@ document.getElementById('start-btn').onclick = () => {
     return;
   }
 
+  nameFormat = document.getElementById('name-format').value;
   mode = document.getElementById('mode-select').value;
   timeLimit = parseInt(document.getElementById('time-select').value);
   choiceCount = Math.min(Math.max(parseInt(document.getElementById('choice-count').value), 5), 8);
 
-  startScreen.style.display = 'none';
-  quizScreen.style.display = 'block';
-  startQuiz();
-};
+  document.getElementById('start-screen').style.display = 'none';
+  document.getElementById('quiz-screen').style.display = 'block';
 
-closeBtn.onclick = () => {
-  modal.style.display = 'none';
-  location.reload();
+  startQuiz();
 };
 
 function startQuiz() {
   current = 0;
   score = 0;
   timeLeft = timeLimit;
-  document.getElementById('next').style.display = 'none';
-  loadQuiz();
+  questionOrder = shuffle([...quizData]);
   startTimer();
+  loadQuiz();
 }
 
 function loadQuiz() {
-  const question = quizData[current];
-  if (!question || !question.name || !question.flag) {
-    console.error("無効な問題データ：", question);
-    return;
-  }
-
+  const question = questionOrder[current];
   const questionDiv = document.getElementById('question-container');
   const optionsDiv = document.getElementById('options');
   const result = document.getElementById('result');
@@ -63,8 +50,11 @@ function loadQuiz() {
   optionsDiv.innerHTML = '';
   result.textContent = '';
 
-  let options = shuffle(quizData).filter(opt => opt.name && opt.flag).slice(0, choiceCount);
-  if (!options.some(opt => opt.name === question.name)) {
+  let options = shuffle([...quizData])
+    .filter(opt => getDisplayName(opt) && opt.flag)
+    .slice(0, choiceCount);
+
+  if (!options.some(opt => opt === question)) {
     options[Math.floor(Math.random() * options.length)] = question;
   }
 
@@ -72,34 +62,50 @@ function loadQuiz() {
     questionDiv.innerHTML = `<img id="flag" src="${question.flag}" alt="国旗" />`;
     options.forEach(opt => {
       const btn = document.createElement('button');
-      btn.textContent = opt.name;
-      btn.onclick = () => checkAnswer(opt.name === question.name);
+      btn.textContent = getDisplayName(opt);
+      btn.onclick = () => checkAnswer(opt === question, question);
       optionsDiv.appendChild(btn);
     });
   } else {
-    questionDiv.textContent = question.name;
+    questionDiv.textContent = getDisplayName(question);
     options.forEach(opt => {
       const btn = document.createElement('button');
-      btn.innerHTML = `<img src="${opt.flag}" width="100" alt="${opt.name}" />`;
-      btn.onclick = () => checkAnswer(opt.name === question.name);
+      btn.innerHTML = `<img src="${opt.flag}" width="100" alt="${getDisplayName(opt)}" />`;
+      btn.onclick = () => checkAnswer(opt === question, question);
       optionsDiv.appendChild(btn);
     });
   }
 }
 
-function checkAnswer(isCorrect) {
-  if (isCorrect) score++;
+function checkAnswer(isCorrect, question) {
+  const result = document.getElementById('result');
+  result.textContent = isCorrect ? '◯' : '×';
+  result.style.fontSize = '2rem';
+  result.style.marginTop = '1rem';
 
-  document.getElementById('result').textContent = isCorrect ? '✅ 正解！' : '❌ 不正解…';
   document.querySelectorAll('#options button').forEach(btn => btn.disabled = true);
-  document.getElementById('next').style.display = 'inline-block';
+
+  if (!isCorrect) {
+    const correct = document.createElement('p');
+    correct.textContent = `正解：${getDisplayName(question)}`;
+    correct.style.fontSize = '1.2rem';
+    correct.style.marginTop = '1rem';
+    document.getElementById('options').appendChild(correct);
+  }
+
+  setTimeout(() => {
+    nextQuiz();
+  }, isCorrect ? 500 : 2000);
 }
 
-document.getElementById('next').onclick = () => {
-  current = (current + 1) % quizData.length;
-  document.getElementById('next').style.display = 'none';
-  loadQuiz();
-};
+function nextQuiz() {
+  current++;
+  if (current >= questionOrder.length) {
+    showScoreModal();
+  } else {
+    loadQuiz();
+  }
+}
 
 function startTimer() {
   const timerDiv = document.getElementById('timer');
@@ -114,17 +120,27 @@ function startTimer() {
       timerDiv.textContent = '⏰ 時間切れ！';
       document.getElementById('options').innerHTML = '';
       document.getElementById('result').textContent = '';
-      document.getElementById('next').style.display = 'none';
       showScoreModal();
     }
   }, 1000);
 }
 
 function showScoreModal() {
-  finalScoreText.textContent = `あなたのスコアは ${score} 点でした！`;
-  modal.style.display = 'block';
+  document.getElementById('final-score').textContent = `あなたのスコアは ${score} 点でした！`;
+  document.getElementById('score-modal').style.display = 'block';
 }
+
+document.getElementById('close-modal').onclick = () => {
+  location.reload();
+};
 
 function shuffle(array) {
   return array.sort(() => Math.random() - 0.5);
+}
+
+function getDisplayName(entry) {
+  if (nameFormat === 'en') return entry.common_name;
+  if (nameFormat === 'jp-common') return entry.japanese_common_name;
+  if (nameFormat === 'jp-official') return entry.japanese_official_name;
+  return entry.common_name;
 }

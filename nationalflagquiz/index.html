@@ -11,19 +11,27 @@
 
   <div id="start-screen">
     <h2>モード選択</h2>
-    <label>出題モード：</label><br>
+
+    <label for="mode-select">出題モード：</label><br>
     <select id="mode-select">
       <option value="flag-to-name">国旗 → 国名</option>
       <option value="name-to-flag">国名 → 国旗</option>
     </select><br><br>
 
-    <label>制限時間：</label><br>
+    <label for="name-format">国名の表示形式：</label><br>
+    <select id="name-format">
+      <option value="en">英語（common_name）</option>
+      <option value="jp-common">日本語（慣用名）</option>
+      <option value="jp-official">日本語（正式名）</option>
+    </select><br><br>
+
+    <label for="time-select">制限時間：</label><br>
     <select id="time-select">
       <option value="30">30秒</option>
       <option value="60">60秒</option>
     </select><br><br>
 
-    <label>選択肢の数：</label><br>
+    <label for="choice-count">選択肢の数：</label><br>
     <input type="number" id="choice-count" min="5" max="8" value="5"><br><br>
 
     <button id="start-btn">クイズを始める</button>
@@ -35,7 +43,6 @@
       <div id="question-container"></div>
       <div id="options"></div>
       <p id="result"></p>
-      <button id="next" style="display: none;">次の問題</button>
     </div>
   </div>
 

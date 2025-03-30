@@ -5,9 +5,14 @@ body {
   background-color: #f9f9f9;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
 select, input {
   padding: 0.5rem;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 button {
@@ -15,6 +20,15 @@ button {
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
   cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
 }
 
 #flag {
@@ -28,7 +42,7 @@ button {
 #result {
   font-weight: bold;
   margin: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 #timer {
@@ -38,6 +52,31 @@ button {
   margin-bottom: 1rem;
 }
 
+#question-container {
+  margin-bottom: 1rem;
+}
+
+#options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#options button {
+  min-width: 120px;
+  padding: 0.8rem;
+}
+
+#options p {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+/* モーダル関連 */
 .modal {
   display: none;
   position: fixed;
@@ -59,4 +98,12 @@ button {
   max-width: 400px;
   border-radius: 10px;
   text-align: center;
+}
+
+#close-modal {
+  background-color: #27ae60;
+}
+
+#close-modal:hover {
+  background-color: #1e8449;
 }
