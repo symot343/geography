@@ -47,12 +47,12 @@
     "alpha2_code": "ax",
     "common_name": "Åland Islands",
     "official_name": "Åland Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
-    "continent": null,
+    "japanese_common_name": "オーランド諸島",
+    "japanese_official_name": "オーランド諸島",
+    "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ax.png",
-    "population": null,
-    "area": null
+    "population": 30000.0,
+    "area": 1580.0
   },
   {
     "alpha2_code": "al",
@@ -69,12 +69,12 @@
     "alpha2_code": "ad",
     "common_name": "Andorra",
     "official_name": "Principality of Andorra",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "アンドラ",
+    "japanese_official_name": "アンドラ公国",
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ad.png",
-    "population": null,
-    "area": null
+    "population": 81000.0,
+    "area": 468.0
   },
   {
     "alpha2_code": "ae",
@@ -84,8 +84,8 @@
     "japanese_official_name": "アラブ首長国連邦",
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ae.png",
-    "population": null,
-    "area": null
+    "population": 11270000.0,
+    "area": 83600.0
   },
   {
     "alpha2_code": "ar",
@@ -113,34 +113,34 @@
     "alpha2_code": "as",
     "common_name": "American Samoa",
     "official_name": "American Samoa",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "サモア",
+    "japanese_official_name": "アメリカ領サモア",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/as.png",
-    "population": null,
-    "area": null
+    "population": 46000.0,
+    "area": 199.0
   },
   {
     "alpha2_code": "aq",
     "common_name": "Antarctica",
     "official_name": "Antarctica",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "南極",
+    "japanese_official_name": "南極大陸",
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/aq.png",
-    "population": null,
-    "area": null
+    "population": 4000.0,
+    "area": 14000000.0
   },
   {
     "alpha2_code": "tf",
     "common_name": "French Southern Territories",
     "official_name": "French Southern Territories",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "フランス南方南極領土",
+    "japanese_official_name": "フランス南方南極領土",
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/tf.png",
-    "population": null,
-    "area": null
+    "population": 300.0,
+    "area": 49666.0
   },
   {
     "alpha2_code": "ag",
@@ -150,8 +150,8 @@
     "japanese_official_name": "アンティグア・バーブーダ",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ag.png",
-    "population": null,
-    "area": null
+    "population": 94000.0,
+    "area": 440.0
   },
   {
     "alpha2_code": "au",
@@ -227,8 +227,8 @@
     "japanese_official_name": "ボネール島、シント・ユースタティウス島、サバ島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bq.png",
-    "population": null,
-    "area": null
+    "population": 38000.0,
+    "area": 328.0
   },
   {
     "alpha2_code": "bf",
@@ -293,19 +293,19 @@
     "japanese_official_name": "ボスニア・ヘルツェゴビナ",
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ba.png",
-    "population": null,
-    "area": null
+    "population": 3140000.0,
+    "area": 51210.0
   },
   {
     "alpha2_code": "bl",
     "common_name": "Saint Barthélemy",
     "official_name": "Saint Barthélemy",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "サン・バルテルミー島",
+    "japanese_official_name": "サン・バルテルミー島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bl.png",
-    "population": null,
-    "area": null
+    "population": 13000.0,
+    "area": 21.0
   },
   {
     "alpha2_code": "by",
@@ -337,8 +337,8 @@
     "japanese_official_name": "英国領バーミューダ",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bm.png",
-    "population": null,
-    "area": null
+    "population": 64000.0,
+    "area": 53.0
   },
   {
     "alpha2_code": "bo",
@@ -399,12 +399,12 @@
     "alpha2_code": "bv",
     "common_name": "Bouvet Island",
     "official_name": "Bouvet Island",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ブーべ島",
+    "japanese_official_name": "ブーべ島",
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/bv.png",
-    "population": null,
-    "area": null
+    "population": 0,
+    "area": 49.0
   },
   {
     "alpha2_code": "bw",
@@ -443,12 +443,12 @@
     "alpha2_code": "cc",
     "common_name": "Cocos (Keeling) Islands",
     "official_name": "Cocos (Keeling) Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
-    "continent": null,
+    "japanese_common_name": "ココス諸島",
+    "japanese_official_name": "ココス（キーリング）諸島",
+    "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/cc.png",
-    "population": null,
-    "area": null
+    "population": 600.0,
+    "area": 14.0
   },
   {
     "alpha2_code": "ch",
@@ -480,8 +480,8 @@
     "japanese_official_name": "中華人民共和国",
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/cn.png",
-    "population": null,
-    "area": null
+    "population": 1416000000.0,
+    "area": 9600000.0
   },
   {
     "alpha2_code": "ci",
@@ -522,7 +522,7 @@
     "official_name": "Republic of the Congo",
     "japanese_common_name": "コンゴ共和国",
     "japanese_official_name": "コンゴ共和国",
-    "continent": null,
+    "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cg.png",
     "population": 3697000.0,
     "area": 342000.0
@@ -535,8 +535,8 @@
     "japanese_official_name": "クック諸島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/ck.png",
-    "population": null,
-    "area": null
+    "population": 19000.0,
+    "area": 237.0
   },
   {
     "alpha2_code": "co",
@@ -568,8 +568,8 @@
     "japanese_official_name": "カーボヴェルデ共和国",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cv.png",
-    "population": null,
-    "area": null
+    "population": 599000.0,
+    "area": 4033.0
   },
   {
     "alpha2_code": "cr",
@@ -601,19 +601,19 @@
     "japanese_official_name": "キュラソー島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/cw.png",
-    "population": null,
-    "area": null
+    "population": 152000.0,
+    "area": 444.0
   },
   {
     "alpha2_code": "cx",
     "common_name": "Christmas Island",
     "official_name": "Christmas Island",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
-    "continent": null,
+    "japanese_common_name": "クリスマス島",
+    "japanese_official_name": "クリスマス島",
+    "continent": "Asia",
     "flag": "https://flagcdn.com/w320/cx.png",
-    "population": null,
-    "area": null
+    "population": 1700.0,
+    "area": 135.0
   },
   {
     "alpha2_code": "ky",
@@ -623,8 +623,8 @@
     "japanese_official_name": "ケイマン諸島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ky.png",
-    "population": null,
-    "area": null
+    "population": 76000.0,
+    "area": 264.0
   },
   {
     "alpha2_code": "cy",
@@ -751,12 +751,12 @@
     "alpha2_code": "eh",
     "common_name": "Western Sahara",
     "official_name": "Western Sahara",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "西サハラ",
+    "japanese_official_name": "西サハラ",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/eh.png",
-    "population": null,
-    "area": null
+    "population": 600000.0,
+    "area": 260000.0
   },
   {
     "alpha2_code": "es",
@@ -821,8 +821,8 @@
     "japanese_official_name": "フォークランド諸島",
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/fk.png",
-    "population": null,
-    "area": null
+    "population": 3500.0,
+    "area": 12170.0
   },
   {
     "alpha2_code": "fr",
@@ -843,19 +843,19 @@
     "japanese_official_name": "フェロー諸島",
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/fo.png",
-    "population": null,
-    "area": null
+    "population": 54000.0,
+    "area": 1399.0
   },
   {
     "alpha2_code": "fm",
     "common_name": "Micronesia, Federated States of",
     "official_name": "Federated States of Micronesia",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ミクロネシア連邦",
+    "japanese_official_name": "ミクロネシア連邦",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/fm.png",
-    "population": null,
-    "area": null
+    "population": 114000.0,
+    "area": 701.0
   },
   {
     "alpha2_code": "ga",
@@ -876,8 +876,8 @@
     "japanese_official_name": "英国（グレートブリテン及び北アイルランド連合王国）",
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/gb.png",
-    "population": null,
-    "area": null
+    "population": 69551000.0,
+    "area": 242500.0
   },
   {
     "alpha2_code": "ge",
@@ -896,10 +896,10 @@
     "official_name": "Guernsey",
     "japanese_common_name": "ガーンジー",
     "japanese_official_name": "ガーンジー島",
-    "continent": null,
+    "continent": "Europe",
     "flag": "https://flagcdn.com/w320/gg.png",
-    "population": null,
-    "area": null
+    "population": 64000.0,
+    "area": 62.0
   },
   {
     "alpha2_code": "gh",
@@ -938,12 +938,12 @@
     "alpha2_code": "gp",
     "common_name": "Guadeloupe",
     "official_name": "Guadeloupe",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "グアドループ",
+    "japanese_official_name": "グアドループ",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/gp.png",
-    "population": null,
-    "area": null
+    "population": 376000.0,
+    "area": 1628.0
   },
   {
     "alpha2_code": "gm",
@@ -1004,12 +1004,12 @@
     "alpha2_code": "gl",
     "common_name": "Greenland",
     "official_name": "Greenland",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "グリーンランド",
+    "japanese_official_name": "グリーンランド",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/gl.png",
-    "population": null,
-    "area": null
+    "population": 57000.0,
+    "area": 2166088.0
   },
   {
     "alpha2_code": "gt",
@@ -1026,12 +1026,12 @@
     "alpha2_code": "gf",
     "common_name": "French Guiana",
     "official_name": "French Guiana",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "フランス領ギアナ",
+    "japanese_official_name": "フランス領ギアナ",
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/gf.png",
-    "population": null,
-    "area": null
+    "population": 28000.0,
+    "area": 85534.0
   },
   {
     "alpha2_code": "gu",
@@ -1061,7 +1061,7 @@
     "official_name": "Hong Kong Special Administrative Region of China",
     "japanese_common_name": "香港",
     "japanese_official_name": "香港",
-    "continent": null,
+    "continent": "Asia",
     "flag": "https://flagcdn.com/w320/hk.png",
     "population": 7413000.0,
     "area": 1115.0
@@ -1070,12 +1070,12 @@
     "alpha2_code": "hm",
     "common_name": "Heard Island and McDonald Islands",
     "official_name": "Heard Island and McDonald Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ハード島・マクドナルド諸島",
+    "japanese_official_name": "ハード島・マクドナルド諸島",
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/hm.png",
-    "population": null,
-    "area": null
+    "population": 0,
+    "area": 372.0
   },
   {
     "alpha2_code": "hn",
@@ -1136,12 +1136,12 @@
     "alpha2_code": "im",
     "common_name": "Isle of Man",
     "official_name": "Isle of Man",
-    "japanese_common_name": "マントウ",
+    "japanese_common_name": "マン島",
     "japanese_official_name": "マン島",
-    "continent": null,
+    "continent": "Europe",
     "flag": "https://flagcdn.com/w320/im.png",
-    "population": null,
-    "area": null
+    "population": 85000.0,
+    "area": 572.0
   },
   {
     "alpha2_code": "in",
@@ -1158,12 +1158,12 @@
     "alpha2_code": "io",
     "common_name": "British Indian Ocean Territory",
     "official_name": "British Indian Ocean Territory",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
-    "continent": null,
+    "japanese_common_name": "イギリス領インド洋地域",
+    "japanese_official_name": "イギリス領インド洋地域",
+    "continent": "Asia",
     "flag": "https://flagcdn.com/w320/io.png",
-    "population": null,
-    "area": null
+    "population": 4000.0,
+    "area": 60.0
   },
   {
     "alpha2_code": "ie",
@@ -1248,10 +1248,10 @@
     "official_name": "Jersey",
     "japanese_common_name": "ジャージー",
     "japanese_official_name": "ジャージー島",
-    "continent": null,
+    "continent": "Europe",
     "flag": "https://flagcdn.com/w320/je.png",
-    "population": null,
-    "area": null
+    "population": 104000.0,
+    "area": 120.0
   },
   {
     "alpha2_code": "jo",
@@ -1268,12 +1268,12 @@
     "alpha2_code": "jp",
     "common_name": "Japan",
     "official_name": "Japan",
-    "japanese_common_name": "日本国",
+    "japanese_common_name": "日本",
     "japanese_official_name": "日本国",
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/jp.png",
-    "population": null,
-    "area": null
+    "population": 123440000.0,
+    "area": 3077900.0
   },
   {
     "alpha2_code": "kz",
@@ -1338,8 +1338,8 @@
     "japanese_official_name": "セントクリストファー・ネーヴィス",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/kn.png",
-    "population": null,
-    "area": null
+    "population": 50000.0,
+    "area": 261.0
   },
   {
     "alpha2_code": "kr",
@@ -1490,7 +1490,7 @@
     "official_name": "Macao Special Administrative Region of China",
     "japanese_common_name": "マカオ",
     "japanese_official_name": "マカオ",
-    "continent": null,
+    "continent": "Asia",
     "flag": "https://flagcdn.com/w320/mo.png",
     "population": 682000.0,
     "area": 33.0
@@ -1499,12 +1499,12 @@
     "alpha2_code": "mf",
     "common_name": "Saint Martin (French part)",
     "official_name": "Saint Martin (French part)",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "セント・マーチン",
+    "japanese_official_name": "セント・マーチン",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/mf.png",
-    "population": null,
-    "area": null
+    "population": 25000.0,
+    "area": 87.0
   },
   {
     "alpha2_code": "ma",
@@ -1576,23 +1576,23 @@
     "alpha2_code": "mh",
     "common_name": "Marshall Islands",
     "official_name": "Republic of the Marshall Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "マーシャル諸島",
+    "japanese_official_name": "マーシャル諸島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/mh.png",
-    "population": null,
-    "area": null
+    "population": 36000.0,
+    "area": 181.0
   },
   {
     "alpha2_code": "mk",
     "common_name": "North Macedonia",
     "official_name": "Republic of North Macedonia",
-    "japanese_common_name": "マケドニア旧ユーゴスラビア",
-    "japanese_official_name": "マケドニア旧ユーゴスラビア共和国",
+    "japanese_common_name": "北マケドニア",
+    "japanese_official_name": "北マケドニア共和国",
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/mk.png",
-    "population": null,
-    "area": null
+    "population": 1816000.0,
+    "area": 25436.0
   },
   {
     "alpha2_code": "ml",
@@ -1653,12 +1653,12 @@
     "alpha2_code": "mp",
     "common_name": "Northern Mariana Islands",
     "official_name": "Commonwealth of the Northern Mariana Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "北マリアナ諸島",
+    "japanese_official_name": "北マリアナ諸島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/mp.png",
-    "population": null,
-    "area": null
+    "population": 44000.0,
+    "area": 460.0
   },
   {
     "alpha2_code": "mz",
@@ -1686,23 +1686,23 @@
     "alpha2_code": "ms",
     "common_name": "Montserrat",
     "official_name": "Montserrat",
-    "japanese_common_name": "モンセラット",
-    "japanese_official_name": "モンセラット",
+    "japanese_common_name": "モントセラト",
+    "japanese_official_name": "モントセラト",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ms.png",
-    "population": null,
-    "area": null
+    "population": 4400.0,
+    "area": 102.0
   },
   {
     "alpha2_code": "mq",
     "common_name": "Martinique",
     "official_name": "Martinique",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "マルチニーク",
+    "japanese_official_name": "マルチニーク",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/mq.png",
-    "population": null,
-    "area": null
+    "population": 400000.0,
+    "area": 1128.0
   },
   {
     "alpha2_code": "mu",
@@ -1741,12 +1741,12 @@
     "alpha2_code": "yt",
     "common_name": "Mayotte",
     "official_name": "Mayotte",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "マヨット",
+    "japanese_official_name": "マヨット",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/yt.png",
-    "population": null,
-    "area": null
+    "population": 320000.0,
+    "area": 374.0
   },
   {
     "alpha2_code": "na",
@@ -1763,12 +1763,12 @@
     "alpha2_code": "nc",
     "common_name": "New Caledonia",
     "official_name": "New Caledonia",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ニューカレドニア",
+    "japanese_official_name": "ニューカレドニア",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nc.png",
-    "population": null,
-    "area": null
+    "population": 299000.0,
+    "area": 18577.0
   },
   {
     "alpha2_code": "ne",
@@ -1785,12 +1785,12 @@
     "alpha2_code": "nf",
     "common_name": "Norfolk Island",
     "official_name": "Norfolk Island",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ノーフォーク島",
+    "japanese_official_name": "ノーフォーク島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nf.png",
-    "population": null,
-    "area": null
+    "population": 2200.0,
+    "area": 35.0
   },
   {
     "alpha2_code": "ng",
@@ -1917,12 +1917,12 @@
     "alpha2_code": "pn",
     "common_name": "Pitcairn",
     "official_name": "Pitcairn",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ピトケアン諸島",
+    "japanese_official_name": "ピトケアン諸島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/pn.png",
-    "population": null,
-    "area": null
+    "population": 1400.0,
+    "area": 10.0
   },
   {
     "alpha2_code": "pe",
@@ -2027,23 +2027,23 @@
     "alpha2_code": "ps",
     "common_name": "Palestine, State of",
     "official_name": "the State of Palestine",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "パレスチナ",
+    "japanese_official_name": "パレスチナ国",
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ps.png",
-    "population": null,
-    "area": null
+    "population": 5100000.0,
+    "area": 6020.0
   },
   {
     "alpha2_code": "pf",
     "common_name": "French Polynesia",
     "official_name": "French Polynesia",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "フランス領ポリネシア",
+    "japanese_official_name": "フランス領ポリネシア",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/pf.png",
-    "population": null,
-    "area": null
+    "population": 27000.0,
+    "area": 4167.0
   },
   {
     "alpha2_code": "qa",
@@ -2060,12 +2060,12 @@
     "alpha2_code": "re",
     "common_name": "Réunion",
     "official_name": "Réunion",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "レユニオン",
+    "japanese_official_name": "レユニオン",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/re.png",
-    "population": null,
-    "area": null
+    "population": 89000.0,
+    "area": 2511.0
   },
   {
     "alpha2_code": "ro",
@@ -2119,8 +2119,8 @@
     "japanese_official_name": "スーダン共和国",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sd.png",
-    "population": null,
-    "area": null
+    "population": 51660000.0,
+    "area": 1860000.0
   },
   {
     "alpha2_code": "sn",
@@ -2148,12 +2148,12 @@
     "alpha2_code": "gs",
     "common_name": "South Georgia and the South Sandwich Islands",
     "official_name": "South Georgia and the South Sandwich Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "南ジョージア・南サンドウィッチ諸島",
+    "japanese_official_name": "南ジョージア・南サンドウィッチ諸島",
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/gs.png",
-    "population": null,
-    "area": null
+    "population": 0,
+    "area": 3900.0
   },
   {
     "alpha2_code": "sh",
@@ -2163,19 +2163,19 @@
     "japanese_official_name": "セントヘレナ島",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sh.png",
-    "population": null,
-    "area": null
+    "population": 4200.0,
+    "area": 122.0
   },
   {
     "alpha2_code": "sj",
     "common_name": "Svalbard and Jan Mayen",
     "official_name": "Svalbard and Jan Mayen",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "スバールバル諸島・ヤン・マイエン島",
+    "japanese_official_name": "スバールバル諸島・ヤン・マイエン島",
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/sj.png",
-    "population": null,
-    "area": null
+    "population": 2600.0,
+    "area": 61400.0
   },
   {
     "alpha2_code": "sb",
@@ -2185,8 +2185,8 @@
     "japanese_official_name": "ソロモン諸島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/sb.png",
-    "population": null,
-    "area": null
+    "population": 770000.0,
+    "area": 28896.0
   },
   {
     "alpha2_code": "sl",
@@ -2258,12 +2258,12 @@
     "alpha2_code": "ss",
     "common_name": "South Sudan",
     "official_name": "Republic of South Sudan",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "南スーダン",
+    "japanese_official_name": "南スーダン共和国",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ss.png",
-    "population": null,
-    "area": null
+    "population": 12470000.0,
+    "area": 28992.0
   },
   {
     "alpha2_code": "st",
@@ -2324,12 +2324,12 @@
     "alpha2_code": "sz",
     "common_name": "Eswatini",
     "official_name": "Kingdom of Eswatini",
-    "japanese_common_name": "スワジランド",
-    "japanese_official_name": "スワジランド王国",
+    "japanese_common_name": "エスワティニ",
+    "japanese_official_name": "エスワティニ王国",
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sz.png",
-    "population": null,
-    "area": null
+    "population": 1160000.0,
+    "area": 17000.0
   },
   {
     "alpha2_code": "sx",
@@ -2339,8 +2339,8 @@
     "japanese_official_name": "シント・マールテン島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/sx.png",
-    "population": null,
-    "area": null
+    "population": 50000.0,
+    "area": 34.0
   },
   {
     "alpha2_code": "sc",
@@ -2372,8 +2372,8 @@
     "japanese_official_name": "英国領タークス諸島・カイコス諸島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/tc.png",
-    "population": null,
-    "area": null
+    "population": 50000.0,
+    "area": 950.0
   },
   {
     "alpha2_code": "td",
@@ -2427,8 +2427,8 @@
     "japanese_official_name": "トケラウ諸島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/tk.png",
-    "population": null,
-    "area": null
+    "population": 26000.0,
+    "area": 12.0
   },
   {
     "alpha2_code": "tm",
@@ -2555,12 +2555,12 @@
     "alpha2_code": "um",
     "common_name": "United States Minor Outlying Islands",
     "official_name": "United States Minor Outlying Islands",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "アメリカ合衆国の小離島",
+    "japanese_official_name": "アメリカ合衆国の小離島",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/um.png",
-    "population": null,
-    "area": null
+    "population": 300.0,
+    "area": 34.0
   },
   {
     "alpha2_code": "uy",
@@ -2581,8 +2581,8 @@
     "japanese_official_name": "アメリカ合衆国",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/us.png",
-    "population": null,
-    "area": null
+    "population": 341140000.0,
+    "area": 9834000.0
   },
   {
     "alpha2_code": "uz",
@@ -2614,8 +2614,8 @@
     "japanese_official_name": "セントビンセント及びグレナディーン諸島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/vc.png",
-    "population": null,
-    "area": null
+    "population": 111600.0,
+    "area": 390.0
   },
   {
     "alpha2_code": "ve",
@@ -2632,23 +2632,23 @@
     "alpha2_code": "vg",
     "common_name": "Virgin Islands, British",
     "official_name": "British Virgin Islands",
-    "japanese_common_name": "ヴァージン",
-    "japanese_official_name": "ヴァージン諸島",
+    "japanese_common_name": "イギリス領ヴァージン諸島",
+    "japanese_official_name": "イギリス領ヴァージン諸島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/vg.png",
-    "population": null,
-    "area": null
+    "population": 32000.0,
+    "area": 153.0
   },
   {
     "alpha2_code": "vi",
     "common_name": "Virgin Islands, U.S.",
     "official_name": "Virgin Islands of the United States",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "アメリカ領ヴァージン諸島",
+    "japanese_official_name": "アメリカ領ヴァージン諸島",
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/vi.png",
-    "population": null,
-    "area": null
+    "population": 850000.0,
+    "area": 346.0
   },
   {
     "alpha2_code": "vn",
@@ -2676,12 +2676,12 @@
     "alpha2_code": "wf",
     "common_name": "Wallis and Futuna",
     "official_name": "Wallis and Futuna",
-    "japanese_common_name": null,
-    "japanese_official_name": null,
+    "japanese_common_name": "ヲリス・フツナ",
+    "japanese_official_name": "ヲリス・フツナ",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/wf.png",
-    "population": null,
-    "area": null
+    "population": 11000.0,
+    "area": 140.0
   },
   {
     "alpha2_code": "ws",
@@ -2691,8 +2691,8 @@
     "japanese_official_name": "サモア独立国",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/ws.png",
-    "population": null,
-    "area": null
+    "population": 220000.0,
+    "area": 2830.0
   },
   {
     "alpha2_code": "ye",
