@@ -1,19 +1,23 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  margin: 2rem;
+  margin: 2rem 1rem;
   background-color: #f9f9f9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 select, input {
   padding: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  max-width: 90%;
 }
 
 button {
   margin: 0.5rem;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   font-size: 1rem;
   cursor: pointer;
   border: none;
@@ -31,6 +35,7 @@ button:hover {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  flex-wrap: wrap;
   margin: 0.5rem 0 1rem;
 }
 
@@ -39,6 +44,7 @@ button:hover {
   border-radius: 5px;
   background-color: #ddd;
   color: #333;
+  min-width: 70px;
 }
 
 .button-group button.selected {
@@ -48,7 +54,8 @@ button:hover {
 }
 
 #flag {
-  width: 300px;
+  width: 90%;
+  max-width: 300px;
   height: auto;
   margin: 1rem 0;
   border: 1px solid #ccc;
@@ -72,11 +79,13 @@ button:hover {
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
+  width: 100%;
 }
 
 #options button {
   min-width: 200px;
   padding: 0.8rem;
+  font-size: 1rem;
 }
 
 #options p {
@@ -146,4 +155,34 @@ button:hover {
 }
 #home-link:hover {
   color: #2980b9;
+}
+
+/* ===== ✅ スマホ最適化 ===== */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #timer {
+    font-size: 1rem;
+  }
+
+  #result {
+    font-size: 3.5rem;
+  }
+
+  .modal-content {
+    font-size: 0.95rem;
+  }
+
+  button, .button-group button {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+    min-width: unset;
+    width: 80%;
+  }
+
+  #flag {
+    max-width: 100%;
+  }
 }
