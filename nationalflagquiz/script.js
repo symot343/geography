@@ -16,18 +16,19 @@ const closeBtn = document.getElementById('close-modal');
 fetch('countries.json')
   .then(res => res.json())
   .then(data => {
-    quizData = data;
+    quizData = data.filter(entry => entry.name && entry.flag);
+    console.log("読み込んだ国データ数:", quizData.length);
   });
 
 document.getElementById('start-btn').onclick = () => {
+  if (quizData.length === 0) {
+    alert("データの読み込み中です。少し待ってから再試行してください。");
+    return;
+  }
+
   mode = document.getElementById('mode-select').value;
   timeLimit = parseInt(document.getElementById('time-select').value);
   choiceCount = Math.min(Math.max(parseInt(document.getElementById('choice-count').value), 5), 8);
-
-  if (quizData.length === 0) {
-    alert("データの読み込み中です。もう一度お試しください。");
-    return;
-  }
 
   startScreen.style.display = 'none';
   quizScreen.style.display = 'block';
@@ -50,6 +51,11 @@ function startQuiz() {
 
 function loadQuiz() {
   const question = quizData[current];
+  if (!question || !question.name || !question.flag) {
+    console.error("無効な問題データ：", question);
+    return;
+  }
+
   const questionDiv = document.getElementById('question-container');
   const optionsDiv = document.getElementById('options');
   const result = document.getElementById('result');
@@ -57,7 +63,7 @@ function loadQuiz() {
   optionsDiv.innerHTML = '';
   result.textContent = '';
 
-  let options = shuffle([...quizData]).slice(0, choiceCount);
+  let options = shuffle(quizData).filter(opt => opt.name && opt.flag).slice(0, choiceCount);
   if (!options.some(opt => opt.name === question.name)) {
     options[Math.floor(Math.random() * options.length)] = question;
   }
