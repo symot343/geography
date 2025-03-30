@@ -29,7 +29,6 @@ function startFlash() {
   flashSequence = [];
   currentIndex = 0;
 
-  // フラッシュループ（表示0.5秒 + 間隔0.1秒 = 600ms間隔）
   const flashLoop = setInterval(() => {
     if (currentIndex >= flashCount) {
       clearInterval(flashLoop);
@@ -40,10 +39,9 @@ function startFlash() {
     const country = getRandomCountry();
     flashSequence.push(country);
     showFlag(country.flag);
-    setTimeout(clearFlag, 500); // ← 表示時間0.5秒
+    setTimeout(clearFlag, 500); // フラッシュ表示時間 0.5秒
     currentIndex++;
-  }, 600);
-
+  }, 600); // 0.5秒表示 + 0.1秒間隔
 }
 
 function showFinalFlag() {
@@ -93,15 +91,21 @@ function showResult(isCorrect) {
 document.addEventListener('DOMContentLoaded', async () => {
   await loadCountries();
 
-  // 回数ボタンを選んだらスタートボタンを表示
+  // 初期選択（5回）
+  const defaultBtn = document.querySelector('.mode-button[data-count="5"]');
+  defaultBtn.classList.add('selected');
+  flashCount = 5;
+
+  // モードボタンの選択制御
   document.querySelectorAll('.mode-button').forEach(button => {
     button.addEventListener('click', () => {
       flashCount = parseInt(button.dataset.count);
-      document.getElementById('start-button').style.display = 'inline-block';
+      document.querySelectorAll('.mode-button').forEach(btn => btn.classList.remove('selected'));
+      button.classList.add('selected');
     });
   });
 
-  // スタートボタン
+  // スタートボタン（初期から表示）
   document.getElementById('start-button').addEventListener('click', () => {
     document.getElementById('mode-select').style.display = 'none';
     document.getElementById('game').style.display = 'block';
