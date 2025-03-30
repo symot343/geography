@@ -1,54 +1,106 @@
 const quizData = [
-    {
-      flag: 'https://flagcdn.com/w320/jp.png',
-      options: ['日本', '中国', '韓国', 'ベトナム'],
-      answer: '日本',
-    },
-    {
-      flag: 'https://flagcdn.com/w320/fr.png',
-      options: ['フランス', 'イタリア', 'イギリス', 'ドイツ'],
-      answer: 'フランス',
-    },
-    {
-      flag: 'https://flagcdn.com/w320/us.png',
-      options: ['アメリカ', 'カナダ', 'オーストラリア', 'メキシコ'],
-      answer: 'アメリカ',
-    },
-    {
-      flag: 'https://flagcdn.com/w320/kr.png',
-      options: ['韓国', '中国', '北朝鮮', '日本'],
-      answer: '韓国',
-    },
-    {
-      flag: 'https://flagcdn.com/w320/de.png',
-      options: ['オーストリア', 'ドイツ', 'スイス', 'ベルギー'],
-      answer: 'ドイツ',
-    }
-  ];
-  
-  let current = 0;
-  
-  function loadQuiz() {
-    const question = quizData[current];
-    document.getElementById('flag').src = question.flag;
-    const optionsDiv = document.getElementById('options');
-    optionsDiv.innerHTML = '';
-    question.options.forEach(option => {
+  { flag: 'https://flagcdn.com/w320/jp.png', name: '日本' },
+  { flag: 'https://flagcdn.com/w320/fr.png', name: 'フランス' },
+  { flag: 'https://flagcdn.com/w320/us.png', name: 'アメリカ' },
+  { flag: 'https://flagcdn.com/w320/kr.png', name: '韓国' },
+  { flag: 'https://flagcdn.com/w320/de.png', name: 'ドイツ' },
+  { flag: 'https://flagcdn.com/w320/it.png', name: 'イタリア' },
+  { flag: 'https://flagcdn.com/w320/gb.png', name: 'イギリス' },
+  { flag: 'https://flagcdn.com/w320/cn.png', name: '中国' },
+];
+
+let current = 0;
+let mode = 'flag-to-name';
+let timeLimit = 30;
+let choiceCount = 5;
+let timer;
+let timeLeft = 0;
+
+const startScreen = document.getElementById('start-screen');
+const quizScreen = document.getElementById('quiz-screen');
+
+document.getElementById('start-btn').onclick = () => {
+  mode = document.getElementById('mode-select').value;
+  timeLimit = parseInt(document.getElementById('time-select').value);
+  choiceCount = Math.min(Math.max(parseInt(document.getElementById('choice-count').value), 5), 8);
+
+  startScreen.style.display = 'none';
+  quizScreen.style.display = 'block';
+
+  startQuiz();
+};
+
+function startQuiz() {
+  current = 0;
+  timeLeft = timeLimit;
+  document.getElementById('next').style.display = 'none';
+  loadQuiz();
+  startTimer();
+}
+
+function loadQuiz() {
+  const question = quizData[current];
+  const questionDiv = document.getElementById('question-container');
+  const optionsDiv = document.getElementById('options');
+  const result = document.getElementById('result');
+
+  optionsDiv.innerHTML = '';
+  result.textContent = '';
+
+  let options = shuffle([...quizData]).slice(0, choiceCount);
+  if (!options.includes(question)) {
+    options[Math.floor(Math.random() * options.length)] = question;
+  }
+
+  if (mode === 'flag-to-name') {
+    questionDiv.innerHTML = `<img id="flag" src="${question.flag}" alt="国旗" />`;
+    options.forEach(opt => {
       const btn = document.createElement('button');
-      btn.textContent = option;
-      btn.onclick = () => {
-        document.getElementById('result').textContent =
-          option === question.answer ? '✅ 正解！' : '❌ 不正解…';
-      };
+      btn.textContent = opt.name;
+      btn.onclick = () => checkAnswer(opt.name === question.name);
       optionsDiv.appendChild(btn);
     });
-    document.getElementById('result').textContent = '';
+  } else {
+    questionDiv.textContent = question.name;
+    options.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.innerHTML = `<img src="${opt.flag}" width="100" alt="${opt.name}" />`;
+      btn.onclick = () => checkAnswer(opt.flag === question.flag);
+      optionsDiv.appendChild(btn);
+    });
   }
-  
-  document.getElementById('next').onclick = () => {
-    current = (current + 1) % quizData.length;
-    loadQuiz();
-  };
-  
+}
+
+function checkAnswer(isCorrect) {
+  document.getElementById('result').textContent = isCorrect ? '✅ 正解！' : '❌ 不正解…';
+  document.querySelectorAll('#options button').forEach(btn => btn.disabled = true);
+  document.getElementById('next').style.display = 'inline-block';
+}
+
+document.getElementById('next').onclick = () => {
+  current = (current + 1) % quizData.length;
+  document.getElementById('next').style.display = 'none';
   loadQuiz();
-  
+};
+
+function startTimer() {
+  const timerDiv = document.getElementById('timer');
+  timerDiv.textContent = `残り時間: ${timeLeft}秒`;
+
+  timer = setInterval(() => {
+    timeLeft--;
+    timerDiv.textContent = `残り時間: ${timeLeft}秒`;
+
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      timerDiv.textContent = '⏰ 時間切れ！';
+      document.getElementById('options').innerHTML = '';
+      document.getElementById('result').textContent = 'クイズ終了！';
+      document.getElementById('next').style.display = 'none';
+    }
+  }, 1000);
+}
+
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
