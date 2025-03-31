@@ -171,3 +171,21 @@ function getDisplayName(entry) {
   if (nameFormat === 'jp-official') return entry.japanese_official_name;
   return entry.common_name;
 }
+
+// 時間ボタンの選択処理
+document.querySelectorAll('.time-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+    timeLimit = parseInt(btn.dataset.time);
+  });
+});
+
+// 択数ボタンの選択処理
+document.querySelectorAll('.choice-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+    choiceCount = parseInt(btn.dataset.choice);
+  });
+});
