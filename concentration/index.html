@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>神経衰弱 - 国旗クイズ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>神経衰弱：国旗ペアを当てよう！</h1>
+
+  <div id="start-screen">
+    <h2>難易度を選んでください</h2>
+    <div id="difficulty-buttons">
+      <button class="difficulty selected" data-level="easy">初級</button>
+      <button class="difficulty" data-level="medium">中級</button>
+      <button class="difficulty" data-level="hard">上級</button>
+    </div>
+    <button id="start-button">スタート</button>
+  </div>
+
+  <div id="turn-counter">ターン数: 0</div>
+  <div id="game-board" style="display: none;"></div>
+
+  <!-- モーダル -->
+  <div id="result-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>ゲームクリア！</h2>
+      <p id="result-text"></p>
+      <button id="retry-button">もう一度プレイ</button>
+      <button id="home-button">ホームに戻る</button>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

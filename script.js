@@ -1,5 +1,6 @@
 const quizzes = [
     { title: '国旗クイズ', path: 'nationalflagquiz/' },
+    { title: '神経衰弱', path: 'concentration/' },
     { title: 'ケッペンの気候区分クイズ', path: 'keppenquiz/' },
     { title: 'フラッシュフラッグ', path: 'flashflag/' }
   ];
