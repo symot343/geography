@@ -4,6 +4,8 @@ let currentIndex = 0;
 let lastFlag = null;
 let answerIsYes = false;
 let flashCount = 5;
+let correctCount = 0;
+let incorrectCount = 0;
 
 async function loadCountries() {
   const res = await fetch('countries.json');
@@ -26,6 +28,7 @@ function clearFlag() {
 
 function startFlash() {
   document.getElementById('question-area').style.display = 'none';
+  document.getElementById('next-button').style.display = 'none';
   flashSequence = [];
   currentIndex = 0;
 
@@ -39,9 +42,9 @@ function startFlash() {
     const country = getRandomCountry();
     flashSequence.push(country);
     showFlag(country.flag);
-    setTimeout(clearFlag, 500); // フラッシュ表示時間 0.5秒
+    setTimeout(clearFlag, 500);
     currentIndex++;
-  }, 600); // 0.5秒表示 + 0.1秒間隔
+  }, 600);
 }
 
 function showFinalFlag() {
@@ -57,20 +60,38 @@ function showFinalFlag() {
   }
 
   document.getElementById('question-area').style.display = 'block';
+  document.getElementById('next-button').style.display = 'none';
 
   const flagDiv = document.getElementById('final-flag');
   flagDiv.innerHTML = `<img src="${lastFlag.flag}" alt="国旗" />`;
 
   const nameDiv = document.getElementById('country-name');
-  nameDiv.textContent = lastFlag.common_name;
+  nameDiv.textContent = lastFlag.japanese_common_name;
+
+  updateScoreDisplay();
 }
 
 function handleAnswer(isYes) {
   const isCorrect = isYes === answerIsYes;
+  if (isCorrect) {
+    correctCount++;
+  } else {
+    incorrectCount++;
+  }
+  updateScoreDisplay();
   showResult(isCorrect);
-  setTimeout(() => {
-    startFlash();
-  }, isCorrect ? 500 : 2000);
+
+  // ○×ボタンを一時的に無効に
+  document.getElementById('yes-button').disabled = true;
+  document.getElementById('no-button').disabled = true;
+
+  // 「次の問題へ」ボタンを表示
+  document.getElementById('next-button').style.display = 'inline-block';
+}
+
+function updateScoreDisplay() {
+  const score = document.getElementById('score-display');
+  score.textContent = `正解: ${correctCount}｜不正解: ${incorrectCount}`;
 }
 
 function showResult(isCorrect) {
@@ -91,12 +112,10 @@ function showResult(isCorrect) {
 document.addEventListener('DOMContentLoaded', async () => {
   await loadCountries();
 
-  // 初期選択（5回）
   const defaultBtn = document.querySelector('.mode-button[data-count="5"]');
   defaultBtn.classList.add('selected');
   flashCount = 5;
 
-  // モードボタンの選択制御
   document.querySelectorAll('.mode-button').forEach(button => {
     button.addEventListener('click', () => {
       flashCount = parseInt(button.dataset.count);
@@ -105,14 +124,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   });
 
-  // スタートボタン（初期から表示）
   document.getElementById('start-button').addEventListener('click', () => {
     document.getElementById('mode-select').style.display = 'none';
     document.getElementById('game').style.display = 'block';
+    correctCount = 0;
+    incorrectCount = 0;
+    updateScoreDisplay();
     startFlash();
   });
 
-  // ○×ボタン
   document.getElementById('yes-button').addEventListener('click', () => handleAnswer(true));
   document.getElementById('no-button').addEventListener('click', () => handleAnswer(false));
+
+  document.getElementById('next-button').addEventListener('click', () => {
+    document.getElementById('yes-button').disabled = false;
+    document.getElementById('no-button').disabled = false;
+    startFlash();
+  });
+
+  document.getElementById('back-to-mode').addEventListener('click', () => {
+    document.getElementById('game').style.display = 'none';
+    document.getElementById('mode-select').style.display = 'block';
+  });
 });

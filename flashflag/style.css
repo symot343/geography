@@ -109,3 +109,41 @@ h1, h2 {
   background-color: #F44336;
   color: white;
 }
+
+#home-link {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #007bff;
+}
+
+#score-display {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#back-to-mode {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #888;
+  color: white;
+  cursor: pointer;
+}
+
+#next-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#next-button:hover {
+  opacity: 0.9;
+}
