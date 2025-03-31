@@ -12,35 +12,43 @@
   <div id="start-screen">
     <h2>モード選択</h2>
 
-    <label for="mode-select">出題モード：</label><br>
+    <!-- 出題形式 -->
+    <label for="mode-select">出題形式：</label><br>
     <select id="mode-select">
       <option value="flag-to-name">国旗 → 国名</option>
       <option value="name-to-flag">国名 → 国旗</option>
     </select><br><br>
 
+    <!-- 国名の表示形式 -->
     <label for="name-format">国名の表示形式：</label><br>
     <select id="name-format">
       <option value="en">英語（common_name）</option>
       <option value="jp-common">日本語（慣用名）</option>
       <option value="jp-official">日本語（正式名）</option>
     </select><br><br>
-    
+
+    <!-- 地域選択 -->
     <label>出題地域：</label><br>
     <div id="region-filters" class="checkbox-group">
       <label><input type="checkbox" id="select-all-regions" checked> すべて選択</label><br>
       <label><input type="checkbox" value="Asia" checked> アジア</label>
       <label><input type="checkbox" value="Europe" checked> ヨーロッパ</label>
       <label><input type="checkbox" value="Africa" checked> アフリカ</label>
-      <label><input type="checkbox" value="Americas" checked> アメリカ大陸</label>
+      <label><input type="checkbox" value="North America" checked> 北アメリカ</label>
+      <label><input type="checkbox" value="South America" checked> 南アメリカ</label>
       <label><input type="checkbox" value="Oceania" checked> オセアニア</label>
+      <label><input type="checkbox" value="Antarctic" checked> 南極</label>
+      
     </div><br>
 
+    <!-- 制限時間 -->
     <label>制限時間：</label><br>
     <div id="time-buttons" class="button-group">
       <button class="time-btn selected" data-time="30">30秒</button>
-      <button class="time-btn" data-time="60">60秒</button>
+      <button class="time-btn" data-time="60">1分</button>
     </div><br>
 
+    <!-- 選択肢の数 -->
     <label>選択肢の数：</label><br>
     <div id="choice-buttons" class="button-group">
       <button class="choice-btn selected" data-choice="2">2</button>
@@ -49,9 +57,11 @@
       <button class="choice-btn" data-choice="5">5</button>
     </div><br>
 
+    <!-- スタートボタン -->
     <button id="start-btn">クイズを始める</button>
-    <p><a href="../index.html" id="home-link">地理クイズホームへ戻る</a></p>
 
+    <!-- ホームに戻る -->
+    <p><a href="../index.html" id="home-link">地理クイズホームへ戻る</a></p>
   </div>
 
   <div id="quiz-screen" style="display: none;">
@@ -72,6 +82,5 @@
   </div>
 
   <script src="script.js"></script>
-  
 </body>
 </html>

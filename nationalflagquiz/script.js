@@ -16,6 +16,28 @@ fetch('countries.json')
     console.log("読み込んだ国数:", quizData.length);
   });
 
+// 地域名を取得（continent を使う）
+function getSelectedRegions() {
+  const checkboxes = document.querySelectorAll('#region-filters input[type="checkbox"]');
+  return Array.from(checkboxes)
+    .filter(cb => cb.checked && cb.value)
+    .map(cb => cb.value);
+}
+
+// 選択された continent にマッチする国だけ抽出
+function getFilteredQuizData() {
+  const selectedContinents = getSelectedRegions();
+  return quizData.filter(entry => selectedContinents.includes(entry.continent));
+}
+
+// 「すべて選択」チェックボックス動作
+document.getElementById('select-all-regions').addEventListener('change', (e) => {
+  const allChecked = e.target.checked;
+  document.querySelectorAll('#region-filters input[type="checkbox"]').forEach(cb => {
+    if (cb !== e.target) cb.checked = allChecked;
+  });
+});
+
 document.getElementById('start-btn').onclick = () => {
   if (quizData.length === 0) {
     alert("データの読み込み中です。少し待ってから再試行してください。");
@@ -27,8 +49,7 @@ document.getElementById('start-btn').onclick = () => {
   timeLimit = parseInt(document.querySelector('.time-btn.selected').dataset.time);
   choiceCount = parseInt(document.querySelector('.choice-btn.selected').dataset.choice);
 
-  const selectedRegions = getSelectedRegions();
-  const filtered = quizData.filter(entry => selectedRegions.includes(entry.region));
+  const filtered = getFilteredQuizData();
   if (filtered.length === 0) {
     alert("選択された地域に国がありません。");
     return;
@@ -45,21 +66,6 @@ document.getElementById('start-btn').onclick = () => {
   startTimer();
   loadQuiz();
 };
-
-function getSelectedRegions() {
-  const checkboxes = document.querySelectorAll('#region-filters input[type="checkbox"]');
-  return Array.from(checkboxes)
-    .filter(cb => cb.checked && cb.value) // ← valueを持ってるチェックボックスのみ
-    .map(cb => cb.value);
-}
-
-// 「すべて選択」チェックボックスの動作
-document.getElementById('select-all-regions').addEventListener('change', (e) => {
-  const allChecked = e.target.checked;
-  document.querySelectorAll('#region-filters input[type="checkbox"]').forEach(cb => {
-    if (cb !== e.target) cb.checked = allChecked;
-  });
-});
 
 function loadQuiz() {
   const question = questionOrder[current];
