@@ -8,8 +8,8 @@ let currentCorrectCapital = null;
 let gameStarted = false;
 
 const difficultyToInterval = {
-  easy: 6000,
-  medium: 4000,
+  easy: 4000,
+  medium: 3000,
   hard: 2000
 };
 
