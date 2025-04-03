@@ -10,7 +10,8 @@ let gameStarted = false;
 const difficultyToInterval = {
   easy: 6000,
   medium: 4500,
-  hard: 3000
+  hard: 3000,
+  infinite: null  // 無限モードは時間追加しない
 };
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -39,7 +40,8 @@ document.getElementById('start-button').addEventListener('click', () => {
   document.getElementById('vortex').classList.remove('hidden');
   correctCount = 0;
 
-  const options = generateInitialBallOptions(5);
+  const initialCount = selectedDifficulty === 'infinite' ? 5 : 10;
+  const options = generateInitialBallOptions(initialCount);
   dropBalls(options, true);
 
   setTimeout(() => {
@@ -68,12 +70,15 @@ function startNewQuestion() {
   document.getElementById('score').textContent = `正解数：${correctCount}`;
   document.querySelector('.card').classList.remove('correct-bg', 'wrong-bg');
 
-  const interval = difficultyToInterval[selectedDifficulty] || 3000;
-  vortexInterval = setInterval(() => {
-    const randomCity = getRandomCapitals(correctCapital, 1)[0];
-    createBall(randomCity.capital, randomCity.capital_ja);
-    checkGameOver();
-  }, interval);
+  // 無限以外のみ時間生成
+  if (selectedDifficulty !== 'infinite') {
+    const interval = difficultyToInterval[selectedDifficulty] || 3000;
+    vortexInterval = setInterval(() => {
+      const randomCity = getRandomCapitals(currentCorrectCapital, 1)[0];
+      createBall(randomCity.capital, randomCity.capital_ja);
+      checkGameOver();
+    }, interval);
+  }
 }
 
 function generateInitialBallOptions(count) {
@@ -143,8 +148,15 @@ function setupBallClick(ball) {
       card.classList.add('correct-bg');
       ball.element.remove();
       allBalls = allBalls.filter(b => b !== ball);
+
+      // 無限モード：正解時に新たなボールを1個追加
+      if (selectedDifficulty === 'infinite') {
+        const newOption = getRandomCapitals(currentCorrectCapital, 1)[0];
+        createBall(newOption.capital, newOption.capital_ja);
+      }
+
       setTimeout(() => {
-        if (allBalls.length === 0) {
+        if (selectedDifficulty !== 'infinite' && allBalls.length === 0) {
           clearInterval(vortexInterval);
           showResultModal('CLEAR!', false);
         } else {
@@ -163,7 +175,7 @@ function setupBallClick(ball) {
 }
 
 function checkGameOver() {
-  if (!gameStarted) return;
+  if (!gameStarted || selectedDifficulty === 'infinite') return;
   if (allBalls.length > 20) {
     clearInterval(vortexInterval);
     showResultModal('GAME OVER', true);
@@ -175,7 +187,8 @@ function showResultModal(titleText, isGameOver = false) {
   const levelText = {
     easy: '初級',
     medium: '中級',
-    hard: '上級'
+    hard: '上級',
+    infinite: '無限'
   };
 
   document.querySelector('#result-modal h2').textContent = titleText;
