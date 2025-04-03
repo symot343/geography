@@ -3,12 +3,12 @@
     display: none !important;
   }
   
-  /* ゲーム画面全体 */
+  /* 全体レイアウト */
   body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    overflow: hidden; /* スクロール防止 */
+    overflow: hidden;
   }
   
   .container {
@@ -26,7 +26,7 @@
     color: #555;
   }
   
-  /* モード選択ボタン */
+  /* 難易度ボタン */
   .level-button {
     margin: 0 5px;
     padding: 10px 16px;
@@ -59,7 +59,7 @@
     background-color: #1976D2;
   }
   
-  /* リンク */
+  /* ホームリンク */
   #home-link {
     margin-top: 10px;
     display: inline-block;
@@ -68,7 +68,7 @@
     text-decoration: underline;
   }
   
-  /* カード表示（問題） */
+  /* カード（国旗＋国名） */
   .card-wrapper {
     position: absolute;
     top: 60px;
@@ -135,7 +135,7 @@
     line-height: 1.2;
   }
   
-  /* 渦巻き（ボール出現ポイント） */
+  /* 渦巻き（vortex） */
   #vortex {
     width: 40px;
     height: 40px;
@@ -154,7 +154,7 @@
     to   { transform: translateX(-50%) rotate(360deg); }
   }
   
-  /* 画面四隅の三角形 */
+  /* 画面の四隅の三角形 */
   .corner {
     position: absolute;
     width: 60px;
@@ -201,7 +201,7 @@
     z-index: 999;
   }
   
-  /* モーダル本体 */
+  /* モーダル内容 */
   .modal-content {
     background: white;
     padding: 30px;
@@ -224,6 +224,16 @@
   #final-accuracy {
     font-weight: bold;
     color: #333;
+  }
+  
+  /* モーダル内の最後の問題表示 */
+  #last-question {
+    margin-top: 20px;
+  }
+  
+  #last-question p {
+    font-size: 1em;
+    margin: 6px 0;
   }
   
   /* モーダルボタン */

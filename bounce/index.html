@@ -21,9 +21,7 @@
     </div>
 
     <button id="start-button">スタート</button>
-    <div style="margin-top: 10px;">
-        <a href="home.html" id="home-link">地理クイズホームに戻る</a>
-      </div>
+    <p><a href="#" id="home-link">地理クイズホームに戻る</a></p>
   </div>
 
   <div id="game-screen" class="hidden">
@@ -45,13 +43,22 @@
     <div class="corner bottom-right"></div>
   </div>
 
-  <!-- ✅ モーダルに hidden を追加 -->
+  <!-- ✅ モーダル（結果表示） -->
   <div id="result-modal" class="modal-overlay hidden">
     <div class="modal-content">
       <h2>GAME OVER</h2>
       <p id="played-level">プレイした級：</p>
       <p id="final-score">正解数：</p>
       <p id="final-accuracy">正解率：</p>
+
+      <!-- ✅ 最後の問題と答え -->
+      <div id="last-question" class="last-question hidden">
+        <p>最後の問題：</p>
+        <img id="last-flag" src="" alt="国旗" class="flag-img" />
+        <p id="last-country-name"></p>
+        <p id="last-answer"></p>
+      </div>
+
       <button onclick="location.reload()">もう一度プレイする</button>
       <button onclick="goToStartScreen()">モード選択に戻る</button>
     </div>

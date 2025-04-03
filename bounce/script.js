@@ -8,9 +8,9 @@ let currentCorrectCapital = null;
 let gameStarted = false;
 
 const difficultyToInterval = {
-  easy: 4000,
-  medium: 3000,
-  hard: 2000
+  easy: 6000,
+  medium: 4500,
+  hard: 3000
 };
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -39,7 +39,7 @@ document.getElementById('start-button').addEventListener('click', () => {
   document.getElementById('vortex').classList.remove('hidden');
   correctCount = 0;
 
-  const options = generateInitialBallOptions(7);
+  const options = generateInitialBallOptions(5);
   dropBalls(options, true);
 
   setTimeout(() => {
@@ -146,7 +146,7 @@ function setupBallClick(ball) {
       setTimeout(() => {
         if (allBalls.length === 0) {
           clearInterval(vortexInterval);
-          showResultModal('CLEAR!');
+          showResultModal('CLEAR!', false);
         } else {
           startNewQuestion();
         }
@@ -164,13 +164,13 @@ function setupBallClick(ball) {
 
 function checkGameOver() {
   if (!gameStarted) return;
-  if (allBalls.length > 30) {
+  if (allBalls.length > 20) {
     clearInterval(vortexInterval);
-    showResultModal('GAME OVER');
+    showResultModal('GAME OVER', true);
   }
 }
 
-function showResultModal(titleText) {
+function showResultModal(titleText, isGameOver = false) {
   const modal = document.getElementById('result-modal');
   const levelText = {
     easy: '初級',
@@ -184,6 +184,19 @@ function showResultModal(titleText) {
   const totalAttempts = correctCount + allBalls.length;
   const accuracy = totalAttempts > 0 ? Math.round((correctCount / totalAttempts) * 100) : 0;
   document.getElementById('final-accuracy').textContent = `正解率：${accuracy}%`;
+
+  if (isGameOver && currentCorrectCapital) {
+    const correctCountry = availableCountries.find(c => c.capital === currentCorrectCapital);
+    if (correctCountry) {
+      document.getElementById('last-question').classList.remove('hidden');
+      document.getElementById('last-flag').src = correctCountry.flag;
+      document.getElementById('last-country-name').textContent = `国名：${correctCountry.japanese_common_name}`;
+      document.getElementById('last-answer').textContent = `正解：${correctCountry.capital}（${correctCountry.capital_ja}）`;
+    }
+  } else {
+    document.getElementById('last-question').classList.add('hidden');
+  }
+
   modal.classList.remove('hidden');
 }
 
