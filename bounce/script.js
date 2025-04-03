@@ -39,7 +39,7 @@ document.getElementById('start-button').addEventListener('click', () => {
   document.getElementById('vortex').classList.remove('hidden');
   correctCount = 0;
 
-  const options = generateInitialBallOptions(10);
+  const options = generateInitialBallOptions(7);
   dropBalls(options, true);
 
   setTimeout(() => {
