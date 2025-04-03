@@ -8,7 +8,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/aw.png",
     "population": 108000.0,
-    "area": 180.0
+    "area": 180.0,
+    "capital": "Oranjestad",
+    "capital_ja": "オラニエスタッド"
   },
   {
     "alpha2_code": "af",
@@ -19,7 +21,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/af.png",
     "population": 13051000.0,
-    "area": 652864.0
+    "area": 652864.0,
+    "capital": "Kabul",
+    "capital_ja": "カブール"
   },
   {
     "alpha2_code": "ao",
@@ -30,7 +34,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ao.png",
     "population": 25789000.0,
-    "area": 1246700.0
+    "area": 1246700.0,
+    "capital": "Luanda",
+    "capital_ja": "ルアンダ"
   },
   {
     "alpha2_code": "ai",
@@ -41,7 +47,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ai.png",
     "population": 14000.0,
-    "area": 91.0
+    "area": 91.0,
+    "capital": "The Valley",
+    "capital_ja": "ザ・バレー"
   },
   {
     "alpha2_code": "ax",
@@ -52,7 +60,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ax.png",
     "population": 30000.0,
-    "area": 1580.0
+    "area": 1580.0,
+    "capital": "Mariehamn",
+    "capital_ja": "マリエハムン"
   },
   {
     "alpha2_code": "al",
@@ -63,7 +73,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/al.png",
     "population": 2402000.0,
-    "area": 28748.0
+    "area": 28748.0,
+    "capital": "Tirana",
+    "capital_ja": "ティラナ"
   },
   {
     "alpha2_code": "ad",
@@ -74,7 +86,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ad.png",
     "population": 81000.0,
-    "area": 468.0
+    "area": 468.0,
+    "capital": "Andorra la Vella",
+    "capital_ja": "アンドラ・ラ・ベリャ"
   },
   {
     "alpha2_code": "ae",
@@ -85,7 +99,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ae.png",
     "population": 11270000.0,
-    "area": 83600.0
+    "area": 83600.0,
+    "capital": "Abu Dhabi",
+    "capital_ja": "アブダビ"
   },
   {
     "alpha2_code": "ar",
@@ -96,7 +112,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/ar.png",
     "population": 40117000.0,
-    "area": 2796427.0
+    "area": 2796427.0,
+    "capital": "Buenos Aires",
+    "capital_ja": "ブエノスアイレス"
   },
   {
     "alpha2_code": "am",
@@ -107,7 +125,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/am.png",
     "population": 2872000.0,
-    "area": 29743.0
+    "area": 29743.0,
+    "capital": "Yerevan",
+    "capital_ja": "エレバン"
   },
   {
     "alpha2_code": "as",
@@ -118,7 +138,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/as.png",
     "population": 46000.0,
-    "area": 199.0
+    "area": 199.0,
+    "capital": "Pago Pago",
+    "capital_ja": "パゴパゴ"
   },
   {
     "alpha2_code": "aq",
@@ -140,7 +162,9 @@
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/tf.png",
     "population": 300.0,
-    "area": 49666.0
+    "area": 49666.0,
+    "capital": "Port-aux-Français",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ag",
@@ -151,7 +175,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ag.png",
     "population": 94000.0,
-    "area": 440.0
+    "area": 440.0,
+    "capital": "Saint John's",
+    "capital_ja": "セントジョンズ"
   },
   {
     "alpha2_code": "au",
@@ -162,7 +188,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/au.png",
     "population": 25485000.0,
-    "area": 7692024.0
+    "area": 7692024.0,
+    "capital": "Canberra",
+    "capital_ja": "キャンベラ"
   },
   {
     "alpha2_code": "at",
@@ -173,7 +201,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/at.png",
     "population": 8402000.0,
-    "area": 83878.0
+    "area": 83878.0,
+    "capital": "Vienna",
+    "capital_ja": "ウィーン"
   },
   {
     "alpha2_code": "az",
@@ -184,7 +214,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/az.png",
     "population": 9944000.0,
-    "area": 86600.0
+    "area": 86600.0,
+    "capital": "Baku",
+    "capital_ja": "バクー"
   },
   {
     "alpha2_code": "bi",
@@ -195,7 +227,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/bi.png",
     "population": 7878000.0,
-    "area": 27834.0
+    "area": 27834.0,
+    "capital": "Gitega",
+    "capital_ja": "ギテガ"
   },
   {
     "alpha2_code": "be",
@@ -206,7 +240,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/be.png",
     "population": 11001000.0,
-    "area": 30528.0
+    "area": 30528.0,
+    "capital": "Brussels",
+    "capital_ja": "ブリュッセル"
   },
   {
     "alpha2_code": "bj",
@@ -217,7 +253,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/bj.png",
     "population": 10009000.0,
-    "area": 114763.0
+    "area": 114763.0,
+    "capital": "Porto-Novo",
+    "capital_ja": "ポルトノボ"
   },
   {
     "alpha2_code": "bq",
@@ -228,7 +266,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bq.png",
     "population": 38000.0,
-    "area": 328.0
+    "area": 328.0,
+    "capital": "Kralendijk",
+    "capital_ja": null
   },
   {
     "alpha2_code": "bf",
@@ -239,7 +279,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/bf.png",
     "population": 20505000.0,
-    "area": 272969.0
+    "area": 272969.0,
+    "capital": "Ouagadougou",
+    "capital_ja": "ワガドゥグー"
   },
   {
     "alpha2_code": "bd",
@@ -250,7 +292,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/bd.png",
     "population": 169829000.0,
-    "area": 148460.0
+    "area": 148460.0,
+    "capital": "Dhaka",
+    "capital_ja": "ダッカ"
   },
   {
     "alpha2_code": "bg",
@@ -261,7 +305,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/bg.png",
     "population": 6520000.0,
-    "area": 110372.0
+    "area": 110372.0,
+    "capital": "Sofia",
+    "capital_ja": "ソフィア"
   },
   {
     "alpha2_code": "bh",
@@ -272,7 +318,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/bh.png",
     "population": 1502000.0,
-    "area": 778.0
+    "area": 778.0,
+    "capital": "Manama",
+    "capital_ja": "マナーマ"
   },
   {
     "alpha2_code": "bs",
@@ -283,7 +331,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bs.png",
     "population": 399000.0,
-    "area": 13940.0
+    "area": 13940.0,
+    "capital": "Nassau",
+    "capital_ja": "ナッソー"
   },
   {
     "alpha2_code": "ba",
@@ -294,7 +344,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ba.png",
     "population": 3140000.0,
-    "area": 51210.0
+    "area": 51210.0,
+    "capital": "Sarajevo",
+    "capital_ja": "サラエボ"
   },
   {
     "alpha2_code": "bl",
@@ -305,7 +357,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bl.png",
     "population": 13000.0,
-    "area": 21.0
+    "area": 21.0,
+    "capital": "Gustavia",
+    "capital_ja": null
   },
   {
     "alpha2_code": "by",
@@ -316,7 +370,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/by.png",
     "population": 9435000.0,
-    "area": 207600.0
+    "area": 207600.0,
+    "capital": "Minsk",
+    "capital_ja": "ミンスク"
   },
   {
     "alpha2_code": "bz",
@@ -327,7 +383,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bz.png",
     "population": 397000.0,
-    "area": 22965.0
+    "area": 22965.0,
+    "capital": "Belmopan",
+    "capital_ja": "ベルモパン"
   },
   {
     "alpha2_code": "bm",
@@ -338,7 +396,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bm.png",
     "population": 64000.0,
-    "area": 53.0
+    "area": 53.0,
+    "capital": "Hamilton",
+    "capital_ja": null
   },
   {
     "alpha2_code": "bo",
@@ -349,7 +409,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/bo.png",
     "population": 10060000.0,
-    "area": 1098581.0
+    "area": 1098581.0,
+    "capital": "Sucre",
+    "capital_ja": "スクレ"
   },
   {
     "alpha2_code": "br",
@@ -360,7 +422,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/br.png",
     "population": 203081000.0,
-    "area": 8510417.0
+    "area": 8510417.0,
+    "capital": "Brasília",
+    "capital_ja": "ブラジリア"
   },
   {
     "alpha2_code": "bb",
@@ -371,7 +435,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/bb.png",
     "population": 278000.0,
-    "area": 431.0
+    "area": 431.0,
+    "capital": "Bridgetown",
+    "capital_ja": "ブリッジタウン"
   },
   {
     "alpha2_code": "bn",
@@ -382,7 +448,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/bn.png",
     "population": 441000.0,
-    "area": 5765.0
+    "area": 5765.0,
+    "capital": "Bandar Seri Begawan",
+    "capital_ja": "バンダルスリブガワン"
   },
   {
     "alpha2_code": "bt",
@@ -393,7 +461,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/bt.png",
     "population": 727000.0,
-    "area": 38394.0
+    "area": 38394.0,
+    "capital": "Thimphu",
+    "capital_ja": "ティンプー"
   },
   {
     "alpha2_code": "bv",
@@ -415,7 +485,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/bw.png",
     "population": 2360000.0,
-    "area": 577852.0
+    "area": 577852.0,
+    "capital": "Gaborone",
+    "capital_ja": "ハボローネ"
   },
   {
     "alpha2_code": "cf",
@@ -426,7 +498,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cf.png",
     "population": 3151000.0,
-    "area": 622984.0
+    "area": 622984.0,
+    "capital": "Bangui",
+    "capital_ja": "バンギ"
   },
   {
     "alpha2_code": "ca",
@@ -437,7 +511,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ca.png",
     "population": 36992000.0,
-    "area": 9984670.0
+    "area": 9984670.0,
+    "capital": "Ottawa",
+    "capital_ja": "オタワ"
   },
   {
     "alpha2_code": "cc",
@@ -448,7 +524,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/cc.png",
     "population": 600.0,
-    "area": 14.0
+    "area": 14.0,
+    "capital": "West Island",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ch",
@@ -459,7 +537,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ch.png",
     "population": 8739000.0,
-    "area": 41291.0
+    "area": 41291.0,
+    "capital": "Bern",
+    "capital_ja": "ベルン"
   },
   {
     "alpha2_code": "cl",
@@ -470,7 +550,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/cl.png",
     "population": 17574000.0,
-    "area": 756102.0
+    "area": 756102.0,
+    "capital": "Santiago",
+    "capital_ja": "サンティアゴ"
   },
   {
     "alpha2_code": "cn",
@@ -481,7 +563,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/cn.png",
     "population": 1416000000.0,
-    "area": 9600000.0
+    "area": 9600000.0,
+    "capital": "Beijing",
+    "capital_ja": "北京"
   },
   {
     "alpha2_code": "ci",
@@ -492,7 +576,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ci.png",
     "population": 29389000.0,
-    "area": 322462.0
+    "area": 322462.0,
+    "capital": "Yamoussoukro",
+    "capital_ja": "ヤムスクロ"
   },
   {
     "alpha2_code": "cm",
@@ -503,7 +589,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cm.png",
     "population": 17052000.0,
-    "area": 475650.0
+    "area": 475650.0,
+    "capital": "Yaoundé",
+    "capital_ja": "ヤウンデ"
   },
   {
     "alpha2_code": "cd",
@@ -514,7 +602,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cd.png",
     "population": 29917000.0,
-    "area": 2345410.0
+    "area": 2345410.0,
+    "capital": "Kinshasa",
+    "capital_ja": "キンシャサ"
   },
   {
     "alpha2_code": "cg",
@@ -525,7 +615,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cg.png",
     "population": 3697000.0,
-    "area": 342000.0
+    "area": 342000.0,
+    "capital": "Brazzaville",
+    "capital_ja": "ブラザビル"
   },
   {
     "alpha2_code": "ck",
@@ -536,7 +628,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/ck.png",
     "population": 19000.0,
-    "area": 237.0
+    "area": 237.0,
+    "capital": "Avarua",
+    "capital_ja": "アバルア"
   },
   {
     "alpha2_code": "co",
@@ -547,7 +641,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/co.png",
     "population": 44164000.0,
-    "area": 1141748.0
+    "area": 1141748.0,
+    "capital": "Bogotá",
+    "capital_ja": "ボゴタ"
   },
   {
     "alpha2_code": "km",
@@ -558,7 +654,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/km.png",
     "population": 758000.0,
-    "area": 2235.0
+    "area": 2235.0,
+    "capital": "Moroni",
+    "capital_ja": "モロニ"
   },
   {
     "alpha2_code": "cv",
@@ -569,7 +667,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/cv.png",
     "population": 599000.0,
-    "area": 4033.0
+    "area": 4033.0,
+    "capital": "Praia",
+    "capital_ja": "プライア"
   },
   {
     "alpha2_code": "cr",
@@ -580,7 +680,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/cr.png",
     "population": 4302000.0,
-    "area": 51100.0
+    "area": 51100.0,
+    "capital": "San José",
+    "capital_ja": "サンホセ"
   },
   {
     "alpha2_code": "cu",
@@ -591,7 +693,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/cu.png",
     "population": 11167000.0,
-    "area": 109884.0
+    "area": 109884.0,
+    "capital": "Havana",
+    "capital_ja": "ハバナ"
   },
   {
     "alpha2_code": "cw",
@@ -602,7 +706,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/cw.png",
     "population": 152000.0,
-    "area": 444.0
+    "area": 444.0,
+    "capital": "Willemstad",
+    "capital_ja": null
   },
   {
     "alpha2_code": "cx",
@@ -613,7 +719,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/cx.png",
     "population": 1700.0,
-    "area": 135.0
+    "area": 135.0,
+    "capital": "Flying Fish Cove",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ky",
@@ -624,7 +732,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ky.png",
     "population": 76000.0,
-    "area": 264.0
+    "area": 264.0,
+    "capital": "George Town",
+    "capital_ja": null
   },
   {
     "alpha2_code": "cy",
@@ -635,7 +745,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/cy.png",
     "population": 923000.0,
-    "area": 9251.0
+    "area": 9251.0,
+    "capital": "Nicosia",
+    "capital_ja": "ニコシア"
   },
   {
     "alpha2_code": "cz",
@@ -646,7 +758,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/cz.png",
     "population": 10524000.0,
-    "area": 78871.0
+    "area": 78871.0,
+    "capital": "Prague",
+    "capital_ja": "プラハ"
   },
   {
     "alpha2_code": "de",
@@ -657,7 +771,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/de.png",
     "population": 80220000.0,
-    "area": 357581.0
+    "area": 357581.0,
+    "capital": "Berlin",
+    "capital_ja": "ベルリン"
   },
   {
     "alpha2_code": "dj",
@@ -668,7 +784,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/dj.png",
     "population": 1067000.0,
-    "area": 23200.0
+    "area": 23200.0,
+    "capital": "Djibouti",
+    "capital_ja": "ジブチ"
   },
   {
     "alpha2_code": "dm",
@@ -679,7 +797,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/dm.png",
     "population": 69000.0,
-    "area": 750.0
+    "area": 750.0,
+    "capital": "Roseau",
+    "capital_ja": "ロゾー"
   },
   {
     "alpha2_code": "dk",
@@ -690,7 +810,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/dk.png",
     "population": 5561000.0,
-    "area": 42947.0
+    "area": 42947.0,
+    "capital": "Copenhagen",
+    "capital_ja": "コペンハーゲン"
   },
   {
     "alpha2_code": "do",
@@ -701,7 +823,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/do.png",
     "population": 10760000.0,
-    "area": 48671.0
+    "area": 48671.0,
+    "capital": "Santo Domingo",
+    "capital_ja": "サントドミンゴ"
   },
   {
     "alpha2_code": "dz",
@@ -712,7 +836,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/dz.png",
     "population": 34453000.0,
-    "area": 2381741.0
+    "area": 2381741.0,
+    "capital": "Algiers",
+    "capital_ja": "アルジェ"
   },
   {
     "alpha2_code": "ec",
@@ -723,7 +849,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/ec.png",
     "population": 14483000.0,
-    "area": 257215.0
+    "area": 257215.0,
+    "capital": "Quito",
+    "capital_ja": "キト"
   },
   {
     "alpha2_code": "eg",
@@ -734,7 +862,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/eg.png",
     "population": 94799000.0,
-    "area": 1002000.0
+    "area": 1002000.0,
+    "capital": "Cairo",
+    "capital_ja": "カイロ"
   },
   {
     "alpha2_code": "er",
@@ -745,7 +875,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/er.png",
     "population": 2622000.0,
-    "area": 121144.0
+    "area": 121144.0,
+    "capital": "Asmara",
+    "capital_ja": "アスマラ"
   },
   {
     "alpha2_code": "eh",
@@ -756,7 +888,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/eh.png",
     "population": 600000.0,
-    "area": 260000.0
+    "area": 260000.0,
+    "capital": "El Aaiún",
+    "capital_ja": "アイウン"
   },
   {
     "alpha2_code": "es",
@@ -767,7 +901,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/es.png",
     "population": 47401000.0,
-    "area": 506009.0
+    "area": 506009.0,
+    "capital": "Madrid",
+    "capital_ja": "マドリード"
   },
   {
     "alpha2_code": "ee",
@@ -778,7 +914,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ee.png",
     "population": 1332000.0,
-    "area": 45399.0
+    "area": 45399.0,
+    "capital": "Tallinn",
+    "capital_ja": "タリン"
   },
   {
     "alpha2_code": "et",
@@ -789,7 +927,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/et.png",
     "population": 73751000.0,
-    "area": 1104300.0
+    "area": 1104300.0,
+    "capital": "Addis Ababa",
+    "capital_ja": "アディスアベバ"
   },
   {
     "alpha2_code": "fi",
@@ -800,7 +940,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/fi.png",
     "population": 5534000.0,
-    "area": 336884.0
+    "area": 336884.0,
+    "capital": "Helsinki",
+    "capital_ja": "ヘルシンキ"
   },
   {
     "alpha2_code": "fj",
@@ -811,7 +953,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/fj.png",
     "population": 885000.0,
-    "area": 18272.0
+    "area": 18272.0,
+    "capital": "Suva",
+    "capital_ja": "スバ"
   },
   {
     "alpha2_code": "fk",
@@ -822,7 +966,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/fk.png",
     "population": 3500.0,
-    "area": 12170.0
+    "area": 12170.0,
+    "capital": "Stanley",
+    "capital_ja": null
   },
   {
     "alpha2_code": "fr",
@@ -833,7 +979,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/fr.png",
     "population": 64301000.0,
-    "area": 551500.0
+    "area": 551500.0,
+    "capital": "Paris",
+    "capital_ja": "パリ"
   },
   {
     "alpha2_code": "fo",
@@ -844,7 +992,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/fo.png",
     "population": 54000.0,
-    "area": 1399.0
+    "area": 1399.0,
+    "capital": "Tórshavn",
+    "capital_ja": null
   },
   {
     "alpha2_code": "fm",
@@ -855,7 +1005,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/fm.png",
     "population": 114000.0,
-    "area": 701.0
+    "area": 701.0,
+    "capital": "Palikir",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ga",
@@ -866,7 +1018,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ga.png",
     "population": 1811000.0,
-    "area": 267668.0
+    "area": 267668.0,
+    "capital": "Libreville",
+    "capital_ja": "リーブルビル"
   },
   {
     "alpha2_code": "gb",
@@ -877,7 +1031,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/gb.png",
     "population": 69551000.0,
-    "area": 242500.0
+    "area": 242500.0,
+    "capital": "London",
+    "capital_ja": "ロンドン"
   },
   {
     "alpha2_code": "ge",
@@ -888,7 +1044,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ge.png",
     "population": 3714000.0,
-    "area": 69700.0
+    "area": 69700.0,
+    "capital": "Tbilisi",
+    "capital_ja": "トビリシ"
   },
   {
     "alpha2_code": "gg",
@@ -899,7 +1057,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/gg.png",
     "population": 64000.0,
-    "area": 62.0
+    "area": 62.0,
+    "capital": "St. Peter Port",
+    "capital_ja": null
   },
   {
     "alpha2_code": "gh",
@@ -910,7 +1070,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/gh.png",
     "population": 30793000.0,
-    "area": 238537.0
+    "area": 238537.0,
+    "capital": "Accra",
+    "capital_ja": "アクラ"
   },
   {
     "alpha2_code": "gi",
@@ -921,7 +1083,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/gi.png",
     "population": 32000.0,
-    "area": 6.0
+    "area": 6.0,
+    "capital": "Gibraltar",
+    "capital_ja": null
   },
   {
     "alpha2_code": "gn",
@@ -932,7 +1096,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/gn.png",
     "population": 10523000.0,
-    "area": 245836.0
+    "area": 245836.0,
+    "capital": "Conakry",
+    "capital_ja": "コナクリ"
   },
   {
     "alpha2_code": "gp",
@@ -943,7 +1109,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/gp.png",
     "population": 376000.0,
-    "area": 1628.0
+    "area": 1628.0,
+    "capital": "Basse-Terre",
+    "capital_ja": "バステール"
   },
   {
     "alpha2_code": "gm",
@@ -954,7 +1122,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/gm.png",
     "population": 2423000.0,
-    "area": 11295.0
+    "area": 11295.0,
+    "capital": "Banjul",
+    "capital_ja": "バンジュール"
   },
   {
     "alpha2_code": "gw",
@@ -965,7 +1135,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/gw.png",
     "population": 1498000.0,
-    "area": 36125.0
+    "area": 36125.0,
+    "capital": "Bissau",
+    "capital_ja": "ビサウ"
   },
   {
     "alpha2_code": "gq",
@@ -976,7 +1148,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/gq.png",
     "population": 1506000.0,
-    "area": 28051.0
+    "area": 28051.0,
+    "capital": "Malabo",
+    "capital_ja": "マラボ"
   },
   {
     "alpha2_code": "gr",
@@ -987,7 +1161,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/gr.png",
     "population": 10816000.0,
-    "area": 131957.0
+    "area": 131957.0,
+    "capital": "Athens",
+    "capital_ja": "アテネ"
   },
   {
     "alpha2_code": "gd",
@@ -998,7 +1174,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/gd.png",
     "population": 107000.0,
-    "area": 345.0
+    "area": 345.0,
+    "capital": "St. George's",
+    "capital_ja": null
   },
   {
     "alpha2_code": "gl",
@@ -1009,7 +1187,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/gl.png",
     "population": 57000.0,
-    "area": 2166088.0
+    "area": 2166088.0,
+    "capital": "Nuuk",
+    "capital_ja": "ヌーク"
   },
   {
     "alpha2_code": "gt",
@@ -1020,7 +1200,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/gt.png",
     "population": 14901000.0,
-    "area": 108889.0
+    "area": 108889.0,
+    "capital": "Guatemala City",
+    "capital_ja": "グアテマラシティ"
   },
   {
     "alpha2_code": "gf",
@@ -1031,18 +1213,22 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/gf.png",
     "population": 28000.0,
-    "area": 85534.0
+    "area": 85534.0,
+    "capital": "Cayenne",
+    "capital_ja": "カイエンヌ"
   },
   {
     "alpha2_code": "gu",
     "common_name": "Guam",
     "official_name": "Guam",
-    "japanese_common_name": "グアテマラ",
-    "japanese_official_name": "グアテマラ共和国",
+    "japanese_common_name": "グアム",
+    "japanese_official_name": "グアム",
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/gu.png",
     "population": 14901000.0,
-    "area": 108889.0
+    "area": 108889.0,
+    "capital": "Hagåtña",
+    "capital_ja": null
   },
   {
     "alpha2_code": "gy",
@@ -1053,7 +1239,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/gy.png",
     "population": 747000.0,
-    "area": 214969.0
+    "area": 214969.0,
+    "capital": "Georgetown",
+    "capital_ja": "ジョージタウン"
   },
   {
     "alpha2_code": "hk",
@@ -1064,7 +1252,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/hk.png",
     "population": 7413000.0,
-    "area": 1115.0
+    "area": 1115.0,
+    "capital": "City of Victoria",
+    "capital_ja": null
   },
   {
     "alpha2_code": "hm",
@@ -1086,7 +1276,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/hn.png",
     "population": 8304000.0,
-    "area": 112492.0
+    "area": 112492.0,
+    "capital": "Tegucigalpa",
+    "capital_ja": "テグシガルパ"
   },
   {
     "alpha2_code": "hr",
@@ -1097,7 +1289,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/hr.png",
     "population": 4285000.0,
-    "area": 56594.0
+    "area": 56594.0,
+    "capital": "Zagreb",
+    "capital_ja": "ザグレブ"
   },
   {
     "alpha2_code": "ht",
@@ -1108,7 +1302,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ht.png",
     "population": 8374000.0,
-    "area": 27750.0
+    "area": 27750.0,
+    "capital": "Port-au-Prince",
+    "capital_ja": "ポルトープランス"
   },
   {
     "alpha2_code": "hu",
@@ -1119,7 +1315,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/hu.png",
     "population": 9938000.0,
-    "area": 93025.0
+    "area": 93025.0,
+    "capital": "Budapest",
+    "capital_ja": "ブダペスト"
   },
   {
     "alpha2_code": "id",
@@ -1130,7 +1328,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/id.png",
     "population": 270204000.0,
-    "area": 1892410.0
+    "area": 1892410.0,
+    "capital": "Jakarta",
+    "capital_ja": "ジャカルタ"
   },
   {
     "alpha2_code": "im",
@@ -1141,7 +1341,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/im.png",
     "population": 85000.0,
-    "area": 572.0
+    "area": 572.0,
+    "capital": "Douglas",
+    "capital_ja": null
   },
   {
     "alpha2_code": "in",
@@ -1152,7 +1354,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/in.png",
     "population": 1210855000.0,
-    "area": 3287263.0
+    "area": 3287263.0,
+    "capital": "New Delhi",
+    "capital_ja": "ニューデリー"
   },
   {
     "alpha2_code": "io",
@@ -1163,7 +1367,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/io.png",
     "population": 4000.0,
-    "area": 60.0
+    "area": 60.0,
+    "capital": "Diego Garcia",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ie",
@@ -1174,7 +1380,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ie.png",
     "population": 4762000.0,
-    "area": 69825.0
+    "area": 69825.0,
+    "capital": "Dublin",
+    "capital_ja": "ダブリン"
   },
   {
     "alpha2_code": "ir",
@@ -1185,7 +1393,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ir.png",
     "population": 79926000.0,
-    "area": 1630848.0
+    "area": 1630848.0,
+    "capital": "Tehran",
+    "capital_ja": "テヘラン"
   },
   {
     "alpha2_code": "iq",
@@ -1196,7 +1406,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/iq.png",
     "population": 19185000.0,
-    "area": 435052.0
+    "area": 435052.0,
+    "capital": "Baghdad",
+    "capital_ja": "バグダッド"
   },
   {
     "alpha2_code": "is",
@@ -1207,7 +1419,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/is.png",
     "population": 316000.0,
-    "area": 103000.0
+    "area": 103000.0,
+    "capital": "Reykjavik",
+    "capital_ja": "レイキャビク"
   },
   {
     "alpha2_code": "il",
@@ -1218,7 +1432,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/il.png",
     "population": 7412000.0,
-    "area": 22072.0
+    "area": 22072.0,
+    "capital": "Jerusalem",
+    "capital_ja": "エルサレム"
   },
   {
     "alpha2_code": "it",
@@ -1229,7 +1445,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/it.png",
     "population": 59434000.0,
-    "area": 302068.0
+    "area": 302068.0,
+    "capital": "Rome",
+    "capital_ja": "ローマ"
   },
   {
     "alpha2_code": "jm",
@@ -1240,7 +1458,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/jm.png",
     "population": 2698000.0,
-    "area": 10991.0
+    "area": 10991.0,
+    "capital": "Kingston",
+    "capital_ja": "キングストン"
   },
   {
     "alpha2_code": "je",
@@ -1251,7 +1471,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/je.png",
     "population": 104000.0,
-    "area": 120.0
+    "area": 120.0,
+    "capital": "Saint Helier",
+    "capital_ja": null
   },
   {
     "alpha2_code": "jo",
@@ -1262,7 +1484,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/jo.png",
     "population": 9532000.0,
-    "area": 89318.0
+    "area": 89318.0,
+    "capital": "Amman",
+    "capital_ja": "アンマン"
   },
   {
     "alpha2_code": "jp",
@@ -1273,7 +1497,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/jp.png",
     "population": 123440000.0,
-    "area": 3077900.0
+    "area": 3077900.0,
+    "capital": "Tokyo",
+    "capital_ja": "東京"
   },
   {
     "alpha2_code": "kz",
@@ -1284,7 +1510,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/kz.png",
     "population": 19186000.0,
-    "area": 2724910.0
+    "area": 2724910.0,
+    "capital": "Astana",
+    "capital_ja": "アスタナ"
   },
   {
     "alpha2_code": "ke",
@@ -1295,7 +1523,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ke.png",
     "population": 47564000.0,
-    "area": 591958.0
+    "area": 591958.0,
+    "capital": "Nairobi",
+    "capital_ja": "ナイロビ"
   },
   {
     "alpha2_code": "kg",
@@ -1306,7 +1536,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/kg.png",
     "population": 5363000.0,
-    "area": 199949.0
+    "area": 199949.0,
+    "capital": "Bishkek",
+    "capital_ja": "ビシュケク"
   },
   {
     "alpha2_code": "kh",
@@ -1317,7 +1549,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/kh.png",
     "population": 15552000.0,
-    "area": 181035.0
+    "area": 181035.0,
+    "capital": "Phnom Penh",
+    "capital_ja": "プノンペン"
   },
   {
     "alpha2_code": "ki",
@@ -1328,7 +1562,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/ki.png",
     "population": 120000.0,
-    "area": 726.0
+    "area": 726.0,
+    "capital": "Tarawa",
+    "capital_ja": "タラワ"
   },
   {
     "alpha2_code": "kn",
@@ -1339,7 +1575,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/kn.png",
     "population": 50000.0,
-    "area": 261.0
+    "area": 261.0,
+    "capital": "Basseterre",
+    "capital_ja": "バセテール"
   },
   {
     "alpha2_code": "kr",
@@ -1350,7 +1588,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/kr.png",
     "population": 51829000.0,
-    "area": 100444.0
+    "area": 100444.0,
+    "capital": "Seoul",
+    "capital_ja": "ソウル"
   },
   {
     "alpha2_code": "kw",
@@ -1361,7 +1601,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/kw.png",
     "population": 3066000.0,
-    "area": 17818.0
+    "area": 17818.0,
+    "capital": "Kuwait City",
+    "capital_ja": "クウェートシティ"
   },
   {
     "alpha2_code": "la",
@@ -1372,7 +1614,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/la.png",
     "population": 6492000.0,
-    "area": 236800.0
+    "area": 236800.0,
+    "capital": "Vientiane",
+    "capital_ja": "ビエンチャン"
   },
   {
     "alpha2_code": "lb",
@@ -1383,7 +1627,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/lb.png",
     "population": 3780000.0,
-    "area": 10452.0
+    "area": 10452.0,
+    "capital": "Beirut",
+    "capital_ja": "ベイルート"
   },
   {
     "alpha2_code": "lr",
@@ -1394,7 +1640,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/lr.png",
     "population": 3477000.0,
-    "area": 111369.0
+    "area": 111369.0,
+    "capital": "Monrovia",
+    "capital_ja": "モンロビア"
   },
   {
     "alpha2_code": "ly",
@@ -1405,7 +1653,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ly.png",
     "population": 5298000.0,
-    "area": 1676198.0
+    "area": 1676198.0,
+    "capital": "Tripoli",
+    "capital_ja": "トリポリ"
   },
   {
     "alpha2_code": "lc",
@@ -1416,7 +1666,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/lc.png",
     "population": 166000.0,
-    "area": 616.0
+    "area": 616.0,
+    "capital": "Castries",
+    "capital_ja": "カストリーズ"
   },
   {
     "alpha2_code": "li",
@@ -1427,7 +1679,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/li.png",
     "population": 38000.0,
-    "area": 160.0
+    "area": 160.0,
+    "capital": "Vaduz",
+    "capital_ja": "ファドゥーツ"
   },
   {
     "alpha2_code": "lk",
@@ -1438,7 +1692,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/lk.png",
     "population": 20359000.0,
-    "area": 65610.0
+    "area": 65610.0,
+    "capital": "Sri Jayawardenepura Kotte",
+    "capital_ja": "スリジャヤワルダナプラコッテ"
   },
   {
     "alpha2_code": "ls",
@@ -1449,7 +1705,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ls.png",
     "population": 1825000.0,
-    "area": 30355.0
+    "area": 30355.0,
+    "capital": "Maseru",
+    "capital_ja": "マセル"
   },
   {
     "alpha2_code": "lt",
@@ -1460,7 +1718,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/lt.png",
     "population": 2811000.0,
-    "area": 65286.0
+    "area": 65286.0,
+    "capital": "Vilnius",
+    "capital_ja": "ビリニュス"
   },
   {
     "alpha2_code": "lu",
@@ -1471,7 +1731,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/lu.png",
     "population": 512000.0,
-    "area": 2586.0
+    "area": 2586.0,
+    "capital": "Luxembourg",
+    "capital_ja": "ルクセンブルク"
   },
   {
     "alpha2_code": "lv",
@@ -1482,7 +1744,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/lv.png",
     "population": 1893000.0,
-    "area": 64594.0
+    "area": 64594.0,
+    "capital": "Riga",
+    "capital_ja": "リガ"
   },
   {
     "alpha2_code": "mo",
@@ -1504,7 +1768,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/mf.png",
     "population": 25000.0,
-    "area": 87.0
+    "area": 87.0,
+    "capital": "Marigot",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ma",
@@ -1515,7 +1781,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ma.png",
     "population": 33848000.0,
-    "area": 446550.0
+    "area": 446550.0,
+    "capital": "Rabat",
+    "capital_ja": "ラバト"
   },
   {
     "alpha2_code": "mc",
@@ -1526,7 +1794,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/mc.png",
     "population": 37000.0,
-    "area": 2.0
+    "area": 2.0,
+    "capital": "Monaco",
+    "capital_ja": "モナコ"
   },
   {
     "alpha2_code": "md",
@@ -1537,7 +1807,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/md.png",
     "population": 2805000.0,
-    "area": 33847.0
+    "area": 33847.0,
+    "capital": "Chișinău",
+    "capital_ja": "キシナウ"
   },
   {
     "alpha2_code": "mg",
@@ -1548,7 +1820,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/mg.png",
     "population": 25674000.0,
-    "area": 587041.0
+    "area": 587041.0,
+    "capital": "Antananarivo",
+    "capital_ja": "アンタナナリボ"
   },
   {
     "alpha2_code": "mv",
@@ -1559,7 +1833,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/mv.png",
     "population": 515000.0,
-    "area": 300.0
+    "area": 300.0,
+    "capital": "Malé",
+    "capital_ja": "マレ"
   },
   {
     "alpha2_code": "mx",
@@ -1570,7 +1846,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/mx.png",
     "population": 126014000.0,
-    "area": 1964375.0
+    "area": 1964375.0,
+    "capital": "Mexico City",
+    "capital_ja": "メキシコシティ"
   },
   {
     "alpha2_code": "mh",
@@ -1581,7 +1859,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/mh.png",
     "population": 36000.0,
-    "area": 181.0
+    "area": 181.0,
+    "capital": "Majuro",
+    "capital_ja": null
   },
   {
     "alpha2_code": "mk",
@@ -1592,7 +1872,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/mk.png",
     "population": 1816000.0,
-    "area": 25436.0
+    "area": 25436.0,
+    "capital": "Skopje",
+    "capital_ja": "スコピエ"
   },
   {
     "alpha2_code": "ml",
@@ -1603,7 +1885,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ml.png",
     "population": 22395000.0,
-    "area": 1240192.0
+    "area": 1240192.0,
+    "capital": "Bamako",
+    "capital_ja": "バマコ"
   },
   {
     "alpha2_code": "mt",
@@ -1614,7 +1898,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/mt.png",
     "population": 520000.0,
-    "area": 315.0
+    "area": 315.0,
+    "capital": "Valletta",
+    "capital_ja": "バレッタ"
   },
   {
     "alpha2_code": "mm",
@@ -1625,7 +1911,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/mm.png",
     "population": 51486000.0,
-    "area": 676577.0
+    "area": 676577.0,
+    "capital": "Naypyidaw",
+    "capital_ja": "ネピドー"
   },
   {
     "alpha2_code": "me",
@@ -1636,7 +1924,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/me.png",
     "population": 624000.0,
-    "area": 13888.0
+    "area": 13888.0,
+    "capital": "Podgorica",
+    "capital_ja": "ポドゴリツァ"
   },
   {
     "alpha2_code": "mn",
@@ -1647,7 +1937,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/mn.png",
     "population": 3197000.0,
-    "area": 1564116.0
+    "area": 1564116.0,
+    "capital": "Ulan Bator",
+    "capital_ja": "ウランバートル"
   },
   {
     "alpha2_code": "mp",
@@ -1658,7 +1950,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/mp.png",
     "population": 44000.0,
-    "area": 460.0
+    "area": 460.0,
+    "capital": "Saipan",
+    "capital_ja": null
   },
   {
     "alpha2_code": "mz",
@@ -1669,7 +1963,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/mz.png",
     "population": 27122000.0,
-    "area": 799380.0
+    "area": 799380.0,
+    "capital": "Maputo",
+    "capital_ja": "マプト"
   },
   {
     "alpha2_code": "mr",
@@ -1680,7 +1976,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/mr.png",
     "population": 3460000.0,
-    "area": 1030700.0
+    "area": 1030700.0,
+    "capital": "Nouakchott",
+    "capital_ja": "ヌアクショット"
   },
   {
     "alpha2_code": "ms",
@@ -1691,7 +1989,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ms.png",
     "population": 4400.0,
-    "area": 102.0
+    "area": 102.0,
+    "capital": "Plymouth",
+    "capital_ja": null
   },
   {
     "alpha2_code": "mq",
@@ -1702,7 +2002,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/mq.png",
     "population": 400000.0,
-    "area": 1128.0
+    "area": 1128.0,
+    "capital": "Fort-de-France",
+    "capital_ja": null
   },
   {
     "alpha2_code": "mu",
@@ -1713,7 +2015,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/mu.png",
     "population": 1235000.0,
-    "area": 1979.0
+    "area": 1979.0,
+    "capital": "Port Louis",
+    "capital_ja": "ポートルイス"
   },
   {
     "alpha2_code": "mw",
@@ -1724,7 +2028,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/mw.png",
     "population": 17564000.0,
-    "area": 117726.0
+    "area": 117726.0,
+    "capital": "Lilongwe",
+    "capital_ja": "リロングウェ"
   },
   {
     "alpha2_code": "my",
@@ -1735,7 +2041,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/my.png",
     "population": 32447000.0,
-    "area": 330621.0
+    "area": 330621.0,
+    "capital": "Kuala Lumpur",
+    "capital_ja": "クアラルンプール"
   },
   {
     "alpha2_code": "yt",
@@ -1746,7 +2054,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/yt.png",
     "population": 320000.0,
-    "area": 374.0
+    "area": 374.0,
+    "capital": "Mamoudzou",
+    "capital_ja": "マムズ"
   },
   {
     "alpha2_code": "na",
@@ -1757,7 +2067,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/na.png",
     "population": 3022000.0,
-    "area": 825229.0
+    "area": 825229.0,
+    "capital": "Windhoek",
+    "capital_ja": "ウィントフック"
   },
   {
     "alpha2_code": "nc",
@@ -1768,7 +2080,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nc.png",
     "population": 299000.0,
-    "area": 18577.0
+    "area": 18577.0,
+    "capital": "Nouméa",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ne",
@@ -1779,7 +2093,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ne.png",
     "population": 16735000.0,
-    "area": 1267000.0
+    "area": 1267000.0,
+    "capital": "Niamey",
+    "capital_ja": "ニアメ"
   },
   {
     "alpha2_code": "nf",
@@ -1790,7 +2106,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nf.png",
     "population": 2200.0,
-    "area": 35.0
+    "area": 35.0,
+    "capital": "Kingston",
+    "capital_ja": "キングストン"
   },
   {
     "alpha2_code": "ng",
@@ -1801,7 +2119,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ng.png",
     "population": 140432000.0,
-    "area": 923768.0
+    "area": 923768.0,
+    "capital": "Abuja",
+    "capital_ja": "アブジャ"
   },
   {
     "alpha2_code": "ni",
@@ -1812,7 +2132,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/ni.png",
     "population": 5142000.0,
-    "area": 130374.0
+    "area": 130374.0,
+    "capital": "Managua",
+    "capital_ja": "マナグア"
   },
   {
     "alpha2_code": "nu",
@@ -1823,7 +2145,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nu.png",
     "population": 2000.0,
-    "area": 260.0
+    "area": 260.0,
+    "capital": "Alofi",
+    "capital_ja": "アロフィ"
   },
   {
     "alpha2_code": "nl",
@@ -1834,7 +2158,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/nl.png",
     "population": 16656000.0,
-    "area": 41543.0
+    "area": 41543.0,
+    "capital": "Amsterdam",
+    "capital_ja": "アムステルダム"
   },
   {
     "alpha2_code": "no",
@@ -1845,7 +2171,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/no.png",
     "population": 4980000.0,
-    "area": 323772.0
+    "area": 323772.0,
+    "capital": "Oslo",
+    "capital_ja": "オスロ"
   },
   {
     "alpha2_code": "np",
@@ -1856,7 +2184,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/np.png",
     "population": 29165000.0,
-    "area": 147181.0
+    "area": 147181.0,
+    "capital": "Kathmandu",
+    "capital_ja": "カトマンズ"
   },
   {
     "alpha2_code": "nr",
@@ -1867,7 +2197,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nr.png",
     "population": 12000.0,
-    "area": 21.0
+    "area": 21.0,
+    "capital": "Yaren",
+    "capital_ja": null
   },
   {
     "alpha2_code": "nz",
@@ -1878,7 +2210,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/nz.png",
     "population": 4793000.0,
-    "area": 268107.0
+    "area": 268107.0,
+    "capital": "Wellington",
+    "capital_ja": "ウェリントン"
   },
   {
     "alpha2_code": "om",
@@ -1889,7 +2223,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/om.png",
     "population": 4471000.0,
-    "area": 309980.0
+    "area": 309980.0,
+    "capital": "Muscat",
+    "capital_ja": "マスカット"
   },
   {
     "alpha2_code": "pk",
@@ -1900,7 +2236,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/pk.png",
     "population": 240458000.0,
-    "area": 796096.0
+    "area": 796096.0,
+    "capital": "Islamabad",
+    "capital_ja": "イスラマバード"
   },
   {
     "alpha2_code": "pa",
@@ -1911,7 +2249,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/pa.png",
     "population": 3406000.0,
-    "area": 75320.0
+    "area": 75320.0,
+    "capital": "Panama City",
+    "capital_ja": "パナマシティ"
   },
   {
     "alpha2_code": "pn",
@@ -1922,7 +2262,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/pn.png",
     "population": 1400.0,
-    "area": 10.0
+    "area": 10.0,
+    "capital": "Adamstown",
+    "capital_ja": "アダムスタウン"
   },
   {
     "alpha2_code": "pe",
@@ -1933,7 +2275,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/pe.png",
     "population": 29382000.0,
-    "area": 1285216.0
+    "area": 1285216.0,
+    "capital": "Lima",
+    "capital_ja": "リマ"
   },
   {
     "alpha2_code": "ph",
@@ -1944,7 +2288,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ph.png",
     "population": 109033000.0,
-    "area": 300000.0
+    "area": 300000.0,
+    "capital": "Manila",
+    "capital_ja": "マニラ"
   },
   {
     "alpha2_code": "pw",
@@ -1955,7 +2301,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/pw.png",
     "population": 18000.0,
-    "area": 459.0
+    "area": 459.0,
+    "capital": "Ngerulmud",
+    "capital_ja": null
   },
   {
     "alpha2_code": "pg",
@@ -1966,7 +2314,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/pg.png",
     "population": 7275000.0,
-    "area": 462840.0
+    "area": 462840.0,
+    "capital": "Port Moresby",
+    "capital_ja": "ポートモレスビー"
   },
   {
     "alpha2_code": "pl",
@@ -1977,7 +2327,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/pl.png",
     "population": 38036000.0,
-    "area": 312679.0
+    "area": 312679.0,
+    "capital": "Warsaw",
+    "capital_ja": "ワルシャワ"
   },
   {
     "alpha2_code": "pr",
@@ -1988,7 +2340,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/pr.png",
     "population": 3286000.0,
-    "area": 8868.0
+    "area": 8868.0,
+    "capital": "San Juan",
+    "capital_ja": "サンフアン"
   },
   {
     "alpha2_code": "kp",
@@ -1999,7 +2353,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/kp.png",
     "population": 24052000.0,
-    "area": 120538.0
+    "area": 120538.0,
+    "capital": "Pyongyang",
+    "capital_ja": "平壌"
   },
   {
     "alpha2_code": "pt",
@@ -2010,7 +2366,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/pt.png",
     "population": 10343000.0,
-    "area": 92225.0
+    "area": 92225.0,
+    "capital": "Lisbon",
+    "capital_ja": "リスボン"
   },
   {
     "alpha2_code": "py",
@@ -2021,7 +2379,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/py.png",
     "population": 6110000.0,
-    "area": 406752.0
+    "area": 406752.0,
+    "capital": "Asunción",
+    "capital_ja": "アスンシオン"
   },
   {
     "alpha2_code": "ps",
@@ -2032,7 +2392,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ps.png",
     "population": 5100000.0,
-    "area": 6020.0
+    "area": 6020.0,
+    "capital": "Ramallah",
+    "capital_ja": null
   },
   {
     "alpha2_code": "pf",
@@ -2043,7 +2405,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/pf.png",
     "population": 27000.0,
-    "area": 4167.0
+    "area": 4167.0,
+    "capital": "Papeetē",
+    "capital_ja": null
   },
   {
     "alpha2_code": "qa",
@@ -2054,7 +2418,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/qa.png",
     "population": 2846000.0,
-    "area": 11637.0
+    "area": 11637.0,
+    "capital": "Doha",
+    "capital_ja": "ドーハ"
   },
   {
     "alpha2_code": "re",
@@ -2065,7 +2431,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/re.png",
     "population": 89000.0,
-    "area": 2511.0
+    "area": 2511.0,
+    "capital": "Saint-Denis",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ro",
@@ -2076,7 +2444,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ro.png",
     "population": 19054000.0,
-    "area": 238398.0
+    "area": 238398.0,
+    "capital": "Bucharest",
+    "capital_ja": "ブカレスト"
   },
   {
     "alpha2_code": "ru",
@@ -2087,7 +2457,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ru.png",
     "population": 147591000.0,
-    "area": 17098246.0
+    "area": 17098246.0,
+    "capital": "Moscow",
+    "capital_ja": "モスクワ"
   },
   {
     "alpha2_code": "rw",
@@ -2098,7 +2470,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/rw.png",
     "population": 10394000.0,
-    "area": 26338.0
+    "area": 26338.0,
+    "capital": "Kigali",
+    "capital_ja": "キガリ"
   },
   {
     "alpha2_code": "sa",
@@ -2109,7 +2483,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/sa.png",
     "population": 32175000.0,
-    "area": 2206714.0
+    "area": 2206714.0,
+    "capital": "Riyadh",
+    "capital_ja": "リヤド"
   },
   {
     "alpha2_code": "sd",
@@ -2120,7 +2496,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sd.png",
     "population": 51660000.0,
-    "area": 1860000.0
+    "area": 1860000.0,
+    "capital": "Khartoum",
+    "capital_ja": "ハルツーム"
   },
   {
     "alpha2_code": "sn",
@@ -2131,7 +2509,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sn.png",
     "population": 13357000.0,
-    "area": 196712.0
+    "area": 196712.0,
+    "capital": "Dakar",
+    "capital_ja": "ダカール"
   },
   {
     "alpha2_code": "sg",
@@ -2142,7 +2522,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/sg.png",
     "population": 4044000.0,
-    "area": 734.0
+    "area": 734.0,
+    "capital": "Singapore",
+    "capital_ja": "シンガポール"
   },
   {
     "alpha2_code": "gs",
@@ -2153,7 +2535,9 @@
     "continent": "Antarctica",
     "flag": "https://flagcdn.com/w320/gs.png",
     "population": 0,
-    "area": 3900.0
+    "area": 3900.0,
+    "capital": "King Edward Point",
+    "capital_ja": null
   },
   {
     "alpha2_code": "sh",
@@ -2164,7 +2548,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sh.png",
     "population": 4200.0,
-    "area": 122.0
+    "area": 122.0,
+    "capital": "Jamestown",
+    "capital_ja": "ジェームズタウン"
   },
   {
     "alpha2_code": "sj",
@@ -2175,7 +2561,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/sj.png",
     "population": 2600.0,
-    "area": 61400.0
+    "area": 61400.0,
+    "capital": "Longyearbyen",
+    "capital_ja": null
   },
   {
     "alpha2_code": "sb",
@@ -2186,7 +2574,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/sb.png",
     "population": 770000.0,
-    "area": 28896.0
+    "area": 28896.0,
+    "capital": "Honiara",
+    "capital_ja": "ホニアラ"
   },
   {
     "alpha2_code": "sl",
@@ -2197,7 +2587,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sl.png",
     "population": 7092000.0,
-    "area": 72300.0
+    "area": 72300.0,
+    "capital": "Freetown",
+    "capital_ja": "フリータウン"
   },
   {
     "alpha2_code": "sv",
@@ -2208,7 +2600,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/sv.png",
     "population": 5744000.0,
-    "area": 21041.0
+    "area": 21041.0,
+    "capital": "San Salvador",
+    "capital_ja": "サンサルバドル"
   },
   {
     "alpha2_code": "sm",
@@ -2219,7 +2613,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/sm.png",
     "population": 31000.0,
-    "area": 61.0
+    "area": 61.0,
+    "capital": "City of San Marino",
+    "capital_ja": null
   },
   {
     "alpha2_code": "so",
@@ -2230,7 +2626,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/so.png",
     "population": 7114000.0,
-    "area": 637657.0
+    "area": 637657.0,
+    "capital": "Mogadishu",
+    "capital_ja": "モガディシュ"
   },
   {
     "alpha2_code": "pm",
@@ -2241,7 +2639,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/pm.png",
     "population": 3406000.0,
-    "area": 75320.0
+    "area": 75320.0,
+    "capital": "Saint-Pierre",
+    "capital_ja": "セントピエール"
   },
   {
     "alpha2_code": "rs",
@@ -2252,7 +2652,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/rs.png",
     "population": 7187000.0,
-    "area": 88444.0
+    "area": 88444.0,
+    "capital": "Belgrade",
+    "capital_ja": "ベオグラード"
   },
   {
     "alpha2_code": "ss",
@@ -2263,7 +2665,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ss.png",
     "population": 12470000.0,
-    "area": 28992.0
+    "area": 28992.0,
+    "capital": "Juba",
+    "capital_ja": null
   },
   {
     "alpha2_code": "st",
@@ -2274,7 +2678,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/st.png",
     "population": 179000.0,
-    "area": 964.0
+    "area": 964.0,
+    "capital": "São Tomé",
+    "capital_ja": "サントメ"
   },
   {
     "alpha2_code": "sr",
@@ -2285,7 +2691,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/sr.png",
     "population": 542000.0,
-    "area": 163820.0
+    "area": 163820.0,
+    "capital": "Paramaribo",
+    "capital_ja": "パラマリボ"
   },
   {
     "alpha2_code": "sk",
@@ -2296,7 +2704,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/sk.png",
     "population": 5449000.0,
-    "area": 49035.0
+    "area": 49035.0,
+    "capital": "Bratislava",
+    "capital_ja": "ブラチスラヴァ"
   },
   {
     "alpha2_code": "si",
@@ -2307,7 +2717,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/si.png",
     "population": 2109000.0,
-    "area": 20273.0
+    "area": 20273.0,
+    "capital": "Ljubljana",
+    "capital_ja": "リュブリャナ"
   },
   {
     "alpha2_code": "se",
@@ -2318,7 +2730,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/se.png",
     "population": 9483000.0,
-    "area": 438574.0
+    "area": 438574.0,
+    "capital": "Stockholm",
+    "capital_ja": "ストックホルム"
   },
   {
     "alpha2_code": "sz",
@@ -2329,7 +2743,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sz.png",
     "population": 1160000.0,
-    "area": 17000.0
+    "area": 17000.0,
+    "capital": "Mbabane",
+    "capital_ja": "ムババーネ"
   },
   {
     "alpha2_code": "sx",
@@ -2340,7 +2756,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/sx.png",
     "population": 50000.0,
-    "area": 34.0
+    "area": 34.0,
+    "capital": "Philipsburg",
+    "capital_ja": null
   },
   {
     "alpha2_code": "sc",
@@ -2351,7 +2769,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/sc.png",
     "population": 102000.0,
-    "area": 457.0
+    "area": 457.0,
+    "capital": "Victoria",
+    "capital_ja": "ビクトリア"
   },
   {
     "alpha2_code": "sy",
@@ -2362,7 +2782,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/sy.png",
     "population": 17921000.0,
-    "area": 185180.0
+    "area": 185180.0,
+    "capital": "Damascus",
+    "capital_ja": "ダマスカス"
   },
   {
     "alpha2_code": "tc",
@@ -2373,7 +2795,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/tc.png",
     "population": 50000.0,
-    "area": 950.0
+    "area": 950.0,
+    "capital": "Cockburn Town",
+    "capital_ja": null
   },
   {
     "alpha2_code": "td",
@@ -2384,7 +2808,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/td.png",
     "population": 11040000.0,
-    "area": 1284000.0
+    "area": 1284000.0,
+    "capital": "N'Djamena",
+    "capital_ja": "ンジャメナ"
   },
   {
     "alpha2_code": "tg",
@@ -2395,7 +2821,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/tg.png",
     "population": 8095000.0,
-    "area": 56785.0
+    "area": 56785.0,
+    "capital": "Lomé",
+    "capital_ja": "ロメ"
   },
   {
     "alpha2_code": "th",
@@ -2406,7 +2834,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/th.png",
     "population": 65982000.0,
-    "area": 513140.0
+    "area": 513140.0,
+    "capital": "Bangkok",
+    "capital_ja": "バンコク"
   },
   {
     "alpha2_code": "tj",
@@ -2417,7 +2847,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/tj.png",
     "population": 7565000.0,
-    "area": 141400.0
+    "area": 141400.0,
+    "capital": "Dushanbe",
+    "capital_ja": "ドゥシャンベ"
   },
   {
     "alpha2_code": "tk",
@@ -2428,7 +2860,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/tk.png",
     "population": 26000.0,
-    "area": 12.0
+    "area": 12.0,
+    "capital": "Fakaofo",
+    "capital_ja": null
   },
   {
     "alpha2_code": "tm",
@@ -2439,7 +2873,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/tm.png",
     "population": 4483000.0,
-    "area": 488100.0
+    "area": 488100.0,
+    "capital": "Ashgabat",
+    "capital_ja": "アシガバット"
   },
   {
     "alpha2_code": "tl",
@@ -2450,7 +2886,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/tl.png",
     "population": 1342000.0,
-    "area": 14954.0
+    "area": 14954.0,
+    "capital": "Dili",
+    "capital_ja": "ディリ"
   },
   {
     "alpha2_code": "to",
@@ -2461,7 +2899,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/to.png",
     "population": 100000.0,
-    "area": 747.0
+    "area": 747.0,
+    "capital": "Nuku'alofa",
+    "capital_ja": null
   },
   {
     "alpha2_code": "tt",
@@ -2472,7 +2912,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/tt.png",
     "population": 1333000.0,
-    "area": 5127.0
+    "area": 5127.0,
+    "capital": "Port of Spain",
+    "capital_ja": null
   },
   {
     "alpha2_code": "tn",
@@ -2483,7 +2925,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/tn.png",
     "population": 10983000.0,
-    "area": 163610.0
+    "area": 163610.0,
+    "capital": "Tunis",
+    "capital_ja": "チュニス"
   },
   {
     "alpha2_code": "tr",
@@ -2494,7 +2938,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/tr.png",
     "population": 84680000.0,
-    "area": 783562.0
+    "area": 783562.0,
+    "capital": "Ankara",
+    "capital_ja": "アンカラ"
   },
   {
     "alpha2_code": "tv",
@@ -2505,7 +2951,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/tv.png",
     "population": 11000.0,
-    "area": 26.0
+    "area": 26.0,
+    "capital": "Funafuti",
+    "capital_ja": "フナフティ"
   },
   {
     "alpha2_code": "tw",
@@ -2516,7 +2964,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/tw.png",
     "population": 23830000.0,
-    "area": 36197.0
+    "area": 36197.0,
+    "capital": "Taipei",
+    "capital_ja": "台北"
   },
   {
     "alpha2_code": "tz",
@@ -2527,7 +2977,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/tz.png",
     "population": 61741000.0,
-    "area": 947303.0
+    "area": 947303.0,
+    "capital": "Dodoma",
+    "capital_ja": "ドドマ"
   },
   {
     "alpha2_code": "ug",
@@ -2538,7 +2990,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/ug.png",
     "population": 45935000.0,
-    "area": 241550.0
+    "area": 241550.0,
+    "capital": "Kampala",
+    "capital_ja": "カンパラ"
   },
   {
     "alpha2_code": "ua",
@@ -2549,7 +3003,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/ua.png",
     "population": 48241000.0,
-    "area": 603500.0
+    "area": 603500.0,
+    "capital": "Kyiv",
+    "capital_ja": "キーウ"
   },
   {
     "alpha2_code": "um",
@@ -2560,7 +3016,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/um.png",
     "population": 300.0,
-    "area": 34.0
+    "area": 34.0,
+    "capital": "Washington DC",
+    "capital_ja": null
   },
   {
     "alpha2_code": "uy",
@@ -2571,7 +3029,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/uy.png",
     "population": 3286000.0,
-    "area": 173626.0
+    "area": 173626.0,
+    "capital": "Montevideo",
+    "capital_ja": "モンテビデオ"
   },
   {
     "alpha2_code": "us",
@@ -2582,7 +3042,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/us.png",
     "population": 341140000.0,
-    "area": 9834000.0
+    "area": 9834000.0,
+    "capital": "Washington, D.C.",
+    "capital_ja": "ワシントンD.C."
   },
   {
     "alpha2_code": "uz",
@@ -2593,7 +3055,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/uz.png",
     "population": 19810000.0,
-    "area": 448969.0
+    "area": 448969.0,
+    "capital": "Tashkent",
+    "capital_ja": "タシュケント"
   },
   {
     "alpha2_code": "va",
@@ -2604,7 +3068,9 @@
     "continent": "Europe",
     "flag": "https://flagcdn.com/w320/va.png",
     "population": 0.0,
-    "area": 4.0
+    "area": 4.0,
+    "capital": "Vatican City",
+    "capital_ja": "バチカン市国"
   },
   {
     "alpha2_code": "vc",
@@ -2615,7 +3081,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/vc.png",
     "population": 111600.0,
-    "area": 390.0
+    "area": 390.0,
+    "capital": "Kingstown",
+    "capital_ja": "キングスタウン"
   },
   {
     "alpha2_code": "ve",
@@ -2626,7 +3094,9 @@
     "continent": "South America",
     "flag": "https://flagcdn.com/w320/ve.png",
     "population": 27228000.0,
-    "area": 929690.0
+    "area": 929690.0,
+    "capital": "Caracas",
+    "capital_ja": "カラカス"
   },
   {
     "alpha2_code": "vg",
@@ -2637,7 +3107,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/vg.png",
     "population": 32000.0,
-    "area": 153.0
+    "area": 153.0,
+    "capital": "Road Town",
+    "capital_ja": null
   },
   {
     "alpha2_code": "vi",
@@ -2648,7 +3120,9 @@
     "continent": "North America",
     "flag": "https://flagcdn.com/w320/vi.png",
     "population": 850000.0,
-    "area": 346.0
+    "area": 346.0,
+    "capital": "Charlotte Amalie",
+    "capital_ja": null
   },
   {
     "alpha2_code": "vn",
@@ -2659,7 +3133,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/vn.png",
     "population": 96209000.0,
-    "area": 331345.0
+    "area": 331345.0,
+    "capital": "Hanoi",
+    "capital_ja": "ハノイ"
   },
   {
     "alpha2_code": "vu",
@@ -2670,7 +3146,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/vu.png",
     "population": 300000.0,
-    "area": 12189.0
+    "area": 12189.0,
+    "capital": "Port Vila",
+    "capital_ja": "ポートビラ"
   },
   {
     "alpha2_code": "wf",
@@ -2681,7 +3159,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/wf.png",
     "population": 11000.0,
-    "area": 140.0
+    "area": 140.0,
+    "capital": "Mata-Utu",
+    "capital_ja": null
   },
   {
     "alpha2_code": "ws",
@@ -2692,7 +3172,9 @@
     "continent": "Oceania",
     "flag": "https://flagcdn.com/w320/ws.png",
     "population": 220000.0,
-    "area": 2830.0
+    "area": 2830.0,
+    "capital": "Apia",
+    "capital_ja": "アピア"
   },
   {
     "alpha2_code": "ye",
@@ -2703,7 +3185,9 @@
     "continent": "Asia",
     "flag": "https://flagcdn.com/w320/ye.png",
     "population": 19685000.0,
-    "area": 527968.0
+    "area": 527968.0,
+    "capital": "Sana'a",
+    "capital_ja": "サナア"
   },
   {
     "alpha2_code": "za",
@@ -2714,7 +3198,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/za.png",
     "population": 62028000.0,
-    "area": 1221037.0
+    "area": 1221037.0,
+    "capital": "Pretoria",
+    "capital_ja": "プレトリア"
   },
   {
     "alpha2_code": "zm",
@@ -2725,7 +3211,9 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/zm.png",
     "population": 19693000.0,
-    "area": 752612.0
+    "area": 752612.0,
+    "capital": "Lusaka",
+    "capital_ja": "ルサカ"
   },
   {
     "alpha2_code": "zw",
@@ -2736,6 +3224,8 @@
     "continent": "Africa",
     "flag": "https://flagcdn.com/w320/zw.png",
     "population": 15179000.0,
-    "area": 390757.0
+    "area": 390757.0,
+    "capital": "Harare",
+    "capital_ja": "ハラレ"
   }
 ]

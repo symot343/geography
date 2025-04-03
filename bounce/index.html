@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>バウンスゲーム</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start-screen" class="container">
+    <h1>バウンスゲーム</h1>
+    <p class="subtitle">疲れて凝った目を運動させる</p>
+
+    <div class="mode-selection">
+      <div class="section">
+        <p>難易度：</p>
+        <button class="level-button selected" data-level="easy">初級</button>
+        <button class="level-button" data-level="medium">中級</button>
+        <button class="level-button" data-level="hard">上級</button>
+      </div>
+    </div>
+
+    <button id="start-button">スタート</button>
+    <div style="margin-top: 10px;">
+        <a href="home.html" id="home-link">地理クイズホームに戻る</a>
+      </div>
+  </div>
+
+  <div id="game-screen" class="hidden">
+    <div id="vortex" class="hidden"></div>
+
+    <div class="card-wrapper">
+      <div id="score">正解数：0</div>
+      <div class="card">
+        <img id="flag" src="" alt="国旗" class="flag-img" />
+        <p id="country-name" class="country-name"></p>
+      </div>
+    </div>
+
+    <div id="ball-container"></div>
+
+    <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+  </div>
+
+  <!-- ✅ モーダルに hidden を追加 -->
+  <div id="result-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <h2>GAME OVER</h2>
+      <p id="played-level">プレイした級：</p>
+      <p id="final-score">正解数：</p>
+      <p id="final-accuracy">正解率：</p>
+      <button onclick="location.reload()">もう一度プレイする</button>
+      <button onclick="goToStartScreen()">モード選択に戻る</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
